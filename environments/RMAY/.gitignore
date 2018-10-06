@@ -1,0 +1,4 @@
+*
+!.gitignore
+!ihg-keypair.pem
+!aws_runtime.json
