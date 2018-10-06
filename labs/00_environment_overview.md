@@ -41,17 +41,34 @@ ssh -i ihg-keypair ec2-user@my.external.ip.address
 
 # First GemFire Cluster
 
-We will start a small GemFire cluster in this lab.
+1. We will start a small GemFire cluster in this lab.
+2. Connect to `gem1101` using the SSH client of your choice.
+3. Note that the GEMFIRE and JAVA_HOME environment variables have already 
+been set but this is some you would normally need to do.
+4. Create a working directory for one locator and one data node.
 
-Connect to `gem1101` using the SSH client of your choice.
+	```bash
+	mkdir locator datanode
+	```
+
+5. Use gfsh to start a locator.
+	
+	```bash
+	$GEMFIRE/bin/gfsh start locator --name=locator1 --dir=locator --port=10000 --http-service-port=17070
+	```
+
+	You can access the Pulse UI at: `gem1101.public.ip.address:17070/pulse`. 
+	The username and password are `admin` and `admin`.
 
 
+6. Now start a data node.
 
+	```bash
+	 $GEMFIRE/bin/gfsh start server --name=datanode --dir=datanode --locators=192.168.1.101[10000]
+	```
 
-
-
-
-
+	Use Pulse to verify that the server has joined the cluster.
+	
 
 
 
