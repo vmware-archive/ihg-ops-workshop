@@ -12,7 +12,7 @@ __For the labs, you will connect via SSH to a server in your environment
 using its external IP address.  From that server, you can access all other 
 servers using the `192.168.n.nnn` IP addresses on the diagram.__
 
-# Look up the IP Addresses for Your Lab Environment
+## Look up the IP Addresses for Your Lab Environment
 
 Go to [this github page](https://github.com/Pivotal-Data-Engineering/ihg-ops-workshop/tree/master/environments).  Select your environment and view the file called `aws_runtime.json`.  
 
@@ -21,7 +21,7 @@ the environment is rebuilt so you will need to look up your external addresses
 each morning._
 
 
-# SSH Instructions
+## SSH Instructions
  
 Select your enviroment from [this github page](https://github.com/Pivotal-Data-Engineering/ihg-ops-workshop/tree/master/environments) and download 
 `ihg-keypair.pem`. The simplest way to do this is to cut and paste the content 
@@ -39,36 +39,25 @@ like this:
 ssh -i ihg-keypair ec2-user@my.external.ip.address
 ```
 
-# First GemFire Cluster
+## Environment Verification
 
 1. We will start a small GemFire cluster in this lab.
 2. Connect to `gem1101` using the SSH client of your choice.
 3. Note that the GEMFIRE and JAVA_HOME environment variables have already 
 been set but this is some you would normally need to do.
-4. Create a working directory for one locator and one data node.
-
-	```bash
-	mkdir locator datanode
-	```
-
-5. Use gfsh to start a locator.
+4. Use gfsh to start a locator.
 	
 	```bash
-	$GEMFIRE/bin/gfsh start locator --name=locator1 --dir=locator --port=10000 --http-service-port=17070
+	$GEMFIRE/bin/gfsh start locator --name=locator1 --dir=locator1 --port=10000 --http-service-port=17070
 	```
 
 	You can access the Pulse UI at: `gem1101.public.ip.address:17070/pulse`. 
 	The username and password are `admin` and `admin`.
 
 
-6. Now start a data node.
-
-	```bash
-	 $GEMFIRE/bin/gfsh start server --name=datanode --dir=datanode --locators=192.168.1.101[10000]
-	```
-
-	Use Pulse to verify that the server has joined the cluster.
+	Please leave the locator running for the next lab.
 	
+	__Congratulations, your environment has been verified.__
 
 
 
