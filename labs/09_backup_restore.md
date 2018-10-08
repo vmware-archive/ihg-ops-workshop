@@ -5,6 +5,13 @@ cluster, remove all of the data and restore from the backup.
 
 The instructions assume you already have a `person` region with data in it.
 
+## Backup Best Practices
+
+- If you do not auto-compact, compact the disk stores before taking a backup to reduce the size
+- Back up to SAN or move the backup files off of local disk as soon as the backup completes to avoid losing them in the event of a disaster
+- Periodically verify your backups by restoring to another, identical cluster
+
+
 ## Lab Instructions
 
 1. Start by writing down the value of the entry with key=1 and the entry with key=1001 so we can verfify that the backup worked.  An example is below.
@@ -101,5 +108,3 @@ server. _Do not remove the `/runtime/gem_cluster_1` directory.
 	
 	
 
-	
-	

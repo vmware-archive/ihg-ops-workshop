@@ -3,10 +3,10 @@
 There will be an in class discussion of SSL configuration for GemFire.
 See also the [gemfire documentation](http://gemfire.docs.pivotal.io/latest/geode/managing/security/implementing_ssl.html).  
 
-For this lab we will implement SSL on all GemFire channels. As with other 
-settings, there are multiple ways to set the SSL settings.  We will place all of
- the SSL related properties into a `gfsecurity.properties` and then point to it 
- using `--security-properties-file` setting on the locator and data node start commands.
+For this lab we will implement SSL on all GemFire channels except for Pulse. 
+
+As with other settings, there are multiple ways to set the SSL settings.  We will
+ place all of the SSL related properties into a `gfsecurity.properties` and then point to it  using `--security-properties-file` setting on the locator and data node start commands.
  
 ## Lab Instructions
 
@@ -32,9 +32,9 @@ You can perform the whole lab from `gem1111`.
 	
  	```
 	ssl-enabled-components=cluster,gateway,jmx,locator,server
-	ssl-keystore=/home/gem_cluster_1/trusted.keystore
+	ssl-keystore=/runtime/gem_cluster_1/trusted.keystore
 	ssl-keystore-password=password
-	ssl-truststore=/home/gem_cluster_1/trusted.keystore
+	ssl-truststore=/runtime/gem_cluster_1/trusted.keystore
 	ssl-truststore-password=password
 	ssl-truststore-type=JKS
 	ssl-keystore-type=JKS
