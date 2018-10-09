@@ -22,6 +22,14 @@ if __name__ == '__main__':
 
     shutil.copytree(os.path.join(here,'..','aws'),envdir)
 
+    with open(os.path.join(envdir,'samples','awscluster.json'), 'r') as f:
+        env = json.load(f)
+
+    env['EnvironmentName'] = name
+
+    with open(os.path.join(envdir,'config','awscluster.json'),'w') as f:
+        json.dump(env,f,indent=3)
+
     with open(os.path.join(here,name,'.gitignore'),'w') as f:
         f.write('*\n')
         f.write('!.gitignore')
@@ -32,7 +40,6 @@ if __name__ == '__main__':
     origdir = os.getcwd()
     os.chdir(envdir)
     try:
-        shutil.copy(os.path.join(envdir,'samples','awscluster.json'),os.path.join(envdir,'config'))
         subprocess.check_call(['python','generateAWSCluster.py'])
         subprocess.check_call(['python','aws_provision_storage.py'])
         subprocess.check_call(['python','aws_provision.py'])
