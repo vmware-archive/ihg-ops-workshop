@@ -32,10 +32,10 @@ if __name__ == '__main__':
 
     with open(os.path.join(here,name,'.gitignore'),'w') as f:
         f.write('*\n')
-        f.write('!.gitignore')
-        f.write('!ihg-keypair.pem')
-        f.write('!aws_runtime.json')
-        f.write('!ssh.py')
+        f.write('!.gitignore\n')
+        f.write('!ihg-keypair.pem\n')
+        f.write('!aws_runtime.json\n')
+        f.write('!ssh.py\n')
 
     origdir = os.getcwd()
     os.chdir(envdir)

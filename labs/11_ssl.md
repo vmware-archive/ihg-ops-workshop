@@ -31,7 +31,7 @@ You can perform the whole lab from `gem1111`.
 	interpreted relative to the locator or datanode working directory.
 	
  	```
-	ssl-enabled-components=cluster,gateway,jmx,locator,server
+	ssl-enabled-components=cluster,jmx,locator,server
 	ssl-keystore=/runtime/gem_cluster_1/trusted.keystore
 	ssl-keystore-password=password
 	ssl-truststore=/runtime/gem_cluster_1/trusted.keystore
