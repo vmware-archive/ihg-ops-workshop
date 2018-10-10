@@ -1,0 +1,601 @@
+
+[info 2018/10/10 08:50:52.412 EDT datanode2 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  cache-xml-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/cache.xml
+  locators=localhost[10000]
+  start-dev-rest-api=false
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=datanode2
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/datanode2.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 08:50:52.434 EDT datanode2 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2018-01-27 01:04:22 +0000
+  Build-Id: root 12
+  Build-Java-Version: 1.8.0_161
+  Build-Platform: Linux 4.4.0-62-generic amd64
+  GemFire-Source-Date: 2018-01-12 16:54:53 +0000
+  GemFire-Source-Repository: support/9.3
+  GemFire-Source-Revision: 65ac182e9236ed9afb50dcf960212a5d6f3ef527
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.3.0
+  Source-Date: 2018-01-26 16:35:20 +0000
+  Source-Repository: support/9.3
+  Source-Revision: 47d3d26957f6378f711698868350dafb996d7e10
+  Native version: native code unavailable
+  Running on: /192.168.43.139, 8 cpu(s), x86_64 Mac OS X 10.13.6 
+  Communications version: 75
+  Process ID: 63824
+  User: rmay
+  Current dir: /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2
+  Home dir: /Users/rmay
+  Command Line Parameters:
+    -Dgemfire.locators=localhost[10000]
+    -Dgemfire.start-dev-rest-api=false
+    -Dgemfire.use-cluster-configuration=true
+    -Dgemfire.cache-xml-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/cache.xml
+    -XX:OnOutOfMemoryError=kill -KILL %p
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/rmay/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.cache-xml-file = /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/cache.xml
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.locators = localhost[10000]
+      gemfire.start-dev-rest-api = false
+      gemfire.use-cluster-configuration = true
+      gopherProxySet = false
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/rmay/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_102-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_102
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.102-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/jna-3504051/jna8779398532967929499.tmp
+      line.separator = 
+      os.version = 10.13.6
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.ServerLauncher start datanode2 --server-port=10200
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/New_York
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2018/10/10 08:50:52.438 EDT datanode2 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  cache-xml-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/cache.xml
+  locators=localhost[10000]
+  start-dev-rest-api=false
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=datanode2
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/datanode2.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 08:50:52.442 EDT datanode2 <main> tid=0x1] initializing InternalDataSerializer with 3 services
+
+[info 2018/10/10 08:50:52.549 EDT datanode2 <main> tid=0x1] Starting membership services
+
+[info 2018/10/10 08:50:52.612 EDT datanode2 <main> tid=0x1] JGroups channel created (took 63ms)
+
+[info 2018/10/10 08:50:52.632 EDT datanode2 <main> tid=0x1] GemFire P2P Listener started on /192.168.43.139:45018
+
+[info 2018/10/10 08:50:52.633 EDT datanode2 <Geode Failure Detection Server thread 0> tid=0x1f] Started failure detection server thread on /192.168.43.139:41844.
+
+[info 2018/10/10 08:50:52.650 EDT datanode2 <main> tid=0x1] Attempting to join the distributed system through coordinator 192.168.43.139(locator:63573:locator)<ec><v0>:1024 using address 192.168.43.139(datanode2:63824):1026
+
+[info 2018/10/10 08:50:52.974 EDT datanode2 <unicast receiver,gibson-46947> tid=0x1b] received new view: View[192.168.43.139(locator:63573:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:63573:locator)<ec><v0>:1024, 192.168.43.139(datanode1:63762)<v3>:1025{lead}, 192.168.43.139(datanode2:63824)<v4>:1026]
+  old view is: null
+
+[info 2018/10/10 08:50:52.981 EDT datanode2 <main> tid=0x1] Finished joining (took 347ms).
+
+[info 2018/10/10 08:50:52.981 EDT datanode2 <main> tid=0x1] Starting DistributionManager 192.168.43.139(datanode2:63824)<v4>:1026.  (took 513 ms)
+
+[info 2018/10/10 08:50:52.983 EDT datanode2 <main> tid=0x1] Initial (distribution manager) view =  View[192.168.43.139(locator:63573:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:63573:locator)<ec><v0>:1024, 192.168.43.139(datanode1:63762)<v3>:1025{lead}, 192.168.43.139(datanode2:63824)<v4>:1026]
+
+[info 2018/10/10 08:50:52.984 EDT datanode2 <main> tid=0x1] Admitting member <192.168.43.139(locator:63573:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2018/10/10 08:50:52.985 EDT datanode2 <main> tid=0x1] Admitting member <192.168.43.139(datanode1:63762)<v3>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/10 08:50:52.985 EDT datanode2 <main> tid=0x1] Admitting member <192.168.43.139(datanode2:63824)<v4>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/10 08:50:53.007 EDT datanode2 <P2P message reader for 192.168.43.139(locator:63573:locator)<ec><v0>:1024 shared unordered uid=3 port=53879> tid=0x24] Member 192.168.43.139(locator:63573:locator)<ec><v0>:1024 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 08:50:53.008 EDT datanode2 <P2P message reader for 192.168.43.139(datanode1:63762)<v3>:1025 shared unordered uid=3 port=53882> tid=0x28] Member 192.168.43.139(datanode1:63762)<v3>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 08:50:53.047 EDT datanode2 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2018/10/10 08:50:53.048 EDT datanode2 <main> tid=0x1] 
+  ***************************************************************
+  Configuration for  'cluster'
+  
+  Jar files to deployed
+
+[info 2018/10/10 08:50:53.145 EDT datanode2 <main> tid=0x1] Requesting cluster configuration
+
+[info 2018/10/10 08:50:53.200 EDT datanode2 <main> tid=0x1] Initializing region _monitoringRegion_192.168.43.139<v4>1026
+
+[info 2018/10/10 08:50:53.209 EDT datanode2 <main> tid=0x1] Region _monitoringRegion_192.168.43.139<v4>1026 requesting initial image from 192.168.43.139(locator:63573:locator)<ec><v0>:1024
+
+[info 2018/10/10 08:50:53.213 EDT datanode2 <main> tid=0x1] _monitoringRegion_192.168.43.139<v4>1026 is done getting image from 192.168.43.139(locator:63573:locator)<ec><v0>:1024. isDeltaGII is false
+
+[info 2018/10/10 08:50:53.214 EDT datanode2 <main> tid=0x1] Initialization of region _monitoringRegion_192.168.43.139<v4>1026 completed
+
+[info 2018/10/10 08:50:53.515 EDT datanode2 <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2018/10/10 08:50:53.528 EDT datanode2 <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2018/10/10 08:50:53.535 EDT datanode2 <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2018/10/10 08:50:53.536 EDT datanode2 <main> tid=0x1] Initializing cache using "file:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/02/datanode2/cache.xml":
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <cache xmlns="http://geode.apache.org/schema/cache" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" copy-on-read="false" is-server="false" lock-lease="120" lock-timeout="60" search-timeout="300" version="1.0" xsi:schemaLocation="http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd">
+  <region name="data">
+      <region-attributes data-policy="partition" statistics-enabled="true">
+        <entry-time-to-live>
+          <expiration-attributes action="destroy" timeout="300"/>
+        </entry-time-to-live>
+        <partition-attributes redundant-copies="1"/>
+        <eviction-attributes>
+          <lru-heap-percentage action="overflow-to-disk"/>
+        </eviction-attributes>
+      </region-attributes>
+    </region>
+  <region name="person">
+      <region-attributes data-policy="partition" >
+        <partition-attributes redundant-copies="1"/>
+        <eviction-attributes>
+          <lru-heap-percentage action="overflow-to-disk"/>
+        </eviction-attributes>
+      </region-attributes>
+    </region>
+  <region name="session">
+      <region-attributes data-policy="partition" statistics-enabled="true">
+        <entry-time-to-live>
+          <expiration-attributes action="destroy" timeout="3600"/>
+        </entry-time-to-live>
+        <entry-idle-time>
+          <expiration-attributes action="destroy" timeout="900"/>
+        </entry-idle-time>
+        <partition-attributes redundant-copies="1"/>
+        <eviction-attributes>
+          <lru-heap-percentage action="overflow-to-disk"/>
+        </eviction-attributes>
+      </region-attributes>
+    </region>
+  </cache>
+
+[info 2018/10/10 08:50:53.670 EDT datanode2 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2018/10/10 08:50:53.675 EDT datanode2 <main> tid=0x1] Region PdxTypes requesting initial image from 192.168.43.139(datanode1:63762)<v3>:1025
+
+[info 2018/10/10 08:50:53.680 EDT datanode2 <main> tid=0x1] PdxTypes is done getting image from 192.168.43.139(datanode1:63762)<v3>:1025. isDeltaGII is false
+
+[info 2018/10/10 08:50:53.681 EDT datanode2 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2018/10/10 08:50:53.744 EDT datanode2 <main> tid=0x1] Created disk store DEFAULT with unique id eb541eece21e4230-b8964517880c5b70
+
+[info 2018/10/10 08:50:53.758 EDT datanode2 <main> tid=0x1] recovery region initialization took 1 ms
+
+[info 2018/10/10 08:50:53.787 EDT datanode2 <main> tid=0x1] Initializing region __PR
+
+[info 2018/10/10 08:50:53.791 EDT datanode2 <main> tid=0x1] Region __PR requesting initial image from 192.168.43.139(datanode1:63762)<v3>:1025
+
+[info 2018/10/10 08:50:53.809 EDT datanode2 <main> tid=0x1] __PR is done getting image from 192.168.43.139(datanode1:63762)<v3>:1025. isDeltaGII is false
+
+[info 2018/10/10 08:50:53.809 EDT datanode2 <main> tid=0x1] Initialization of region __PR completed
+
+[info 2018/10/10 08:50:53.828 EDT datanode2 <main> tid=0x1] Partitioned Region /data is created with prId=1
+
+[info 2018/10/10 08:50:53.862 EDT datanode2 <main> tid=0x1] Overridding MemoryPoolMXBean heap threshold bytes 0 on pool PS Old Gen
+
+[info 2018/10/10 08:50:53.881 EDT datanode2 <main> tid=0x1] Partitioned Region /person is born with prId=3 ident:#person
+
+[warning 2018/10/10 08:50:53.896 EDT datanode2 <main> tid=0x1] Initialization failed for Region /person
+java.lang.IllegalStateException: Cannot create PartitionedRegion /person because another cache (192.168.43.139(datanode1:63762)<v3>:1025) has the same region defined as a non PartitionedRegion.
+	at org.apache.geode.internal.cache.CreateRegionProcessor$CreateRegionMessage.handleCacheDistributionAdvisee(CreateRegionProcessor.java:466)
+	at org.apache.geode.internal.cache.CreateRegionProcessor$CreateRegionMessage.process(CreateRegionProcessor.java:369)
+	at org.apache.geode.distributed.internal.DistributionMessage.scheduleAction(DistributionMessage.java:382)
+	at org.apache.geode.distributed.internal.DistributionMessage$1.run(DistributionMessage.java:448)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.geode.distributed.internal.DistributionManager.runUntilShutdown(DistributionManager.java:1099)
+	at org.apache.geode.distributed.internal.DistributionManager.access$000(DistributionManager.java:108)
+	at org.apache.geode.distributed.internal.DistributionManager$5$1.run(DistributionManager.java:820)
+	at java.lang.Thread.run(Thread.java:745)
+
+[error 2018/10/10 08:50:53.903 EDT datanode2 <main> tid=0x1] Cache initialization failed because: java.lang.IllegalStateException: Cannot create PartitionedRegion /person because another cache (192.168.43.139(datanode1:63762)<v3>:1025) has the same region defined as a non PartitionedRegion.
+
+[info 2018/10/10 08:50:53.908 EDT datanode2 <main> tid=0x1] GemFireCache[id = 796553753; isClosing = true; isShutDownAll = false; created = Wed Oct 10 08:50:53 EDT 2018; server = false; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2018/10/10 08:50:53.940 EDT datanode2 <main> tid=0x1] Shutting down DistributionManager 192.168.43.139(datanode2:63824)<v4>:1026. 
+
+[info 2018/10/10 08:50:54.042 EDT datanode2 <main> tid=0x1] Now closing distribution for 192.168.43.139(datanode2:63824)<v4>:1026
+
+[info 2018/10/10 08:50:54.042 EDT datanode2 <main> tid=0x1] Stopping membership services
+
+[info 2018/10/10 08:50:54.044 EDT datanode2 <Geode Failure Detection Server thread 0> tid=0x1f] GMSHealthMonitor server thread exiting
+
+[info 2018/10/10 08:50:54.045 EDT datanode2 <main> tid=0x1] GMSHealthMonitor server socket is closed in stopServices().
+
+[info 2018/10/10 08:50:54.045 EDT datanode2 <main> tid=0x1] GMSHealthMonitor serverSocketExecutor is terminated
+
+[info 2018/10/10 08:50:54.054 EDT datanode2 <main> tid=0x1] DistributionManager stopped in 114ms.
+
+[info 2018/10/10 08:50:54.054 EDT datanode2 <main> tid=0x1] Marking DistributionManager 192.168.43.139(datanode2:63824)<v4>:1026 as closed.
