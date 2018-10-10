@@ -1,0 +1,1451 @@
+
+[info 2018/10/10 18:35:47.055 EDT datanode2 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  locators=localhost[10000]
+  start-dev-rest-api=false
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=datanode2
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/datanode2.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cache-xml-file=cache.xml
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 18:35:47.076 EDT datanode2 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2018-01-27 01:04:22 +0000
+  Build-Id: root 12
+  Build-Java-Version: 1.8.0_161
+  Build-Platform: Linux 4.4.0-62-generic amd64
+  GemFire-Source-Date: 2018-01-12 16:54:53 +0000
+  GemFire-Source-Repository: support/9.3
+  GemFire-Source-Revision: 65ac182e9236ed9afb50dcf960212a5d6f3ef527
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.3.0
+  Source-Date: 2018-01-26 16:35:20 +0000
+  Source-Repository: support/9.3
+  Source-Revision: 47d3d26957f6378f711698868350dafb996d7e10
+  Native version: native code unavailable
+  Running on: /172.16.201.183, 8 cpu(s), x86_64 Mac OS X 10.13.6 
+  Communications version: 75
+  Process ID: 74128
+  User: rmay
+  Current dir: /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2
+  Home dir: /Users/rmay
+  Command Line Parameters:
+    -Dgemfire.locators=localhost[10000]
+    -Dgemfire.start-dev-rest-api=false
+    -Dgemfire.use-cluster-configuration=true
+    -XX:OnOutOfMemoryError=kill -KILL %p
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/rmay/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.locators = localhost[10000]
+      gemfire.start-dev-rest-api = false
+      gemfire.use-cluster-configuration = true
+      gopherProxySet = false
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/rmay/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_102-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_102
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.102-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/jna-3504051/jna981273426655142799.tmp
+      line.separator = 
+      os.version = 10.13.6
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.ServerLauncher start datanode2 --server-port=10200
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/New_York
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2018/10/10 18:35:47.081 EDT datanode2 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  locators=localhost[10000]
+  start-dev-rest-api=false
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=datanode2
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/datanode2.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cache-xml-file=cache.xml
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 18:35:47.085 EDT datanode2 <main> tid=0x1] initializing InternalDataSerializer with 3 services
+
+[info 2018/10/10 18:35:47.196 EDT datanode2 <main> tid=0x1] Starting membership services
+
+[info 2018/10/10 18:35:47.270 EDT datanode2 <main> tid=0x1] JGroups channel created (took 74ms)
+
+[info 2018/10/10 18:35:47.290 EDT datanode2 <main> tid=0x1] GemFire P2P Listener started on /172.16.201.183:28733
+
+[info 2018/10/10 18:35:47.291 EDT datanode2 <Geode Failure Detection Server thread 0> tid=0x1f] Started failure detection server thread on /172.16.201.183:6187.
+
+[info 2018/10/10 18:35:47.307 EDT datanode2 <main> tid=0x1] Attempting to join the distributed system through coordinator 172.16.201.183(locator:71770:locator)<ec><v0>:1024 using address 172.16.201.183(datanode2:74128):1026
+
+[info 2018/10/10 18:35:47.626 EDT datanode2 <unicast receiver,gibson-14328> tid=0x1b] received new view: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|16] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026]
+  old view is: null
+
+[info 2018/10/10 18:35:47.631 EDT datanode2 <main> tid=0x1] Finished joining (took 339ms).
+
+[info 2018/10/10 18:35:47.631 EDT datanode2 <main> tid=0x1] Starting DistributionManager 172.16.201.183(datanode2:74128)<v16>:1026.  (took 518 ms)
+
+[info 2018/10/10 18:35:47.633 EDT datanode2 <main> tid=0x1] Initial (distribution manager) view =  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|16] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026]
+
+[info 2018/10/10 18:35:47.634 EDT datanode2 <main> tid=0x1] Admitting member <172.16.201.183(locator:71770:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2018/10/10 18:35:47.635 EDT datanode2 <main> tid=0x1] Admitting member <172.16.201.183(datanode1:74085)<v15>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/10 18:35:47.635 EDT datanode2 <main> tid=0x1] Admitting member <172.16.201.183(datanode2:74128)<v16>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/10 18:35:47.657 EDT datanode2 <P2P message reader for 172.16.201.183(locator:71770:locator)<ec><v0>:1024 shared unordered uid=12 port=59482> tid=0x24] Member 172.16.201.183(locator:71770:locator)<ec><v0>:1024 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 18:35:47.659 EDT datanode2 <P2P message reader for 172.16.201.183(datanode1:74085)<v15>:1025 shared unordered uid=3 port=59485> tid=0x28] Member 172.16.201.183(datanode1:74085)<v15>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 18:35:47.705 EDT datanode2 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2018/10/10 18:35:47.738 EDT datanode2 <main> tid=0x1] 
+  ***************************************************************
+  Configuration for  'cluster'
+  
+  Jar files to deployed
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <cache xmlns="http://geode.apache.org/schema/cache" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" copy-on-read="false" is-server="false" lock-lease="120" lock-timeout="60" search-timeout="300" version="1.0" xsi:schemaLocation="http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd">
+  <disk-store name="person-disk-store">
+      <disk-dirs>
+        <disk-dir>data/person</disk-dir>
+      </disk-dirs>
+    </disk-store>
+  <disk-store name="pdx-disks-store">
+      <disk-dirs>
+        <disk-dir>data/pdx</disk-dir>
+      </disk-dirs>
+    </disk-store>
+  <pdx disk-store-name="pdx-disks-store" persistent="true" read-serialized="true"/>
+  <region name="person">
+      <region-attributes data-policy="persistent-partition" disk-store-name="person-disk-store">
+        <partition-attributes redundant-copies="1"/>
+      </region-attributes>
+    </region>
+  </cache>
+  
+
+[info 2018/10/10 18:35:47.828 EDT datanode2 <main> tid=0x1] Requesting cluster configuration
+
+[info 2018/10/10 18:35:47.883 EDT datanode2 <main> tid=0x1] Initializing region _monitoringRegion_172.16.201.183<v16>1026
+
+[info 2018/10/10 18:35:47.889 EDT datanode2 <main> tid=0x1] The following persistent member has been revoked:
+  71e3b0da-6fb9-4672-9eac-c93f108fb27d
+
+[info 2018/10/10 18:35:47.889 EDT datanode2 <main> tid=0x1] The following persistent member has been revoked:
+  4610329e-ac66-456a-a8d9-2e305163b69a
+
+[info 2018/10/10 18:35:47.890 EDT datanode2 <main> tid=0x1] The following persistent member has been revoked:
+  4963e6a6-9798-435f-b176-37189e8bd013
+
+[info 2018/10/10 18:35:47.890 EDT datanode2 <main> tid=0x1] The following persistent member has been revoked:
+  44cf9d34-27e2-40e4-a519-56d2e4255638
+
+[info 2018/10/10 18:35:47.893 EDT datanode2 <main> tid=0x1] Region _monitoringRegion_172.16.201.183<v16>1026 requesting initial image from 172.16.201.183(locator:71770:locator)<ec><v0>:1024
+
+[info 2018/10/10 18:35:47.895 EDT datanode2 <main> tid=0x1] _monitoringRegion_172.16.201.183<v16>1026 is done getting image from 172.16.201.183(locator:71770:locator)<ec><v0>:1024. isDeltaGII is false
+
+[info 2018/10/10 18:35:47.896 EDT datanode2 <main> tid=0x1] Initialization of region _monitoringRegion_172.16.201.183<v16>1026 completed
+
+[info 2018/10/10 18:35:48.214 EDT datanode2 <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2018/10/10 18:35:48.227 EDT datanode2 <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2018/10/10 18:35:48.228 EDT datanode2 <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2018/10/10 18:35:48.394 EDT datanode2 <main> tid=0x1] Created disk store pdx-disks-store with unique id e0521fd37ac545b9-a50343b5d721c12f
+
+[info 2018/10/10 18:35:48.402 EDT datanode2 <main> tid=0x1] recovery region initialization took 1 ms
+
+[info 2018/10/10 18:35:48.421 EDT datanode2 <main> tid=0x1] Created oplog#1 drf for disk store pdx-disks-store.
+
+[info 2018/10/10 18:35:48.423 EDT datanode2 <main> tid=0x1] Created oplog#1 crf for disk store pdx-disks-store.
+
+[info 2018/10/10 18:35:48.427 EDT datanode2 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2018/10/10 18:35:48.437 EDT datanode2 <main> tid=0x1] Region PdxTypes requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:35:48.442 EDT datanode2 <main> tid=0x1] PdxTypes is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:35:48.442 EDT datanode2 <main> tid=0x1] Region PdxTypes initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/pdx created at timestamp 1539210948427 version 0 diskStoreId e0521fd37ac545b9-a50343b5d721c12f name datanode2 with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:35:48.443 EDT datanode2 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2018/10/10 18:35:48.448 EDT datanode2 <main> tid=0x1] Created disk store person-disk-store with unique id cf8804628e224490-b70bfaaf62ef368e
+
+[info 2018/10/10 18:35:48.449 EDT datanode2 <main> tid=0x1] recovery region initialization took 0 ms
+
+[info 2018/10/10 18:35:48.476 EDT datanode2 <main> tid=0x1] Initializing region __PR
+
+[info 2018/10/10 18:35:48.479 EDT datanode2 <main> tid=0x1] Region __PR requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:35:48.492 EDT datanode2 <main> tid=0x1] __PR is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:35:48.493 EDT datanode2 <main> tid=0x1] Initialization of region __PR completed
+
+[info 2018/10/10 18:35:48.507 EDT datanode2 <main> tid=0x1] Partitioned Region /person is created with prId=5
+
+[info 2018/10/10 18:35:48.529 EDT datanode2 <main> tid=0x1] Created oplog#1 drf for disk store person-disk-store.
+
+[info 2018/10/10 18:35:48.530 EDT datanode2 <main> tid=0x1] Created oplog#1 crf for disk store person-disk-store.
+
+[info 2018/10/10 18:35:48.682 EDT datanode2 <main> tid=0x1] Cache server connection listener bound to address 172.16.201.183-0.0.0.0/0.0.0.0:10200 with backlog 1,000.
+
+[info 2018/10/10 18:35:48.690 EDT datanode2 <main> tid=0x1] ClientHealthMonitorThread maximum allowed time between pings: 60,000
+
+[warning 2018/10/10 18:35:48.691 EDT datanode2 <main> tid=0x1] Handshaker max Pool size: 4
+
+[info 2018/10/10 18:35:48.696 EDT datanode2 <main> tid=0x1] CacheServer Configuration:   port=10200 max-connections=800 max-threads=0 notify-by-subscription=true socket-buffer-size=32768 maximum-time-between-pings=60000 maximum-message-count=230000 message-time-to-live=180 eviction-policy=none capacity=1 overflow directory=. groups=[] loadProbe=ConnectionCountProbe loadPollInterval=5000 tcpNoDelay=true
+
+[info 2018/10/10 18:36:06.496 EDT datanode2 <unicast receiver,gibson-14328> tid=0x1b] received new view: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|17] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026, 172.16.201.183(datanode3:74167)<v17>:1027]
+  old view is: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|16] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026]
+
+[info 2018/10/10 18:36:06.498 EDT datanode2 <View Message Processor> tid=0x55] Membership: Processing addition < 172.16.201.183(datanode3:74167)<v17>:1027 >
+
+[info 2018/10/10 18:36:06.498 EDT datanode2 <View Message Processor> tid=0x55] Admitting member <172.16.201.183(datanode3:74167)<v17>:1027>. Now there are 4 non-admin member(s).
+
+[info 2018/10/10 18:36:06.518 EDT datanode2 <Pooled High Priority Message Processor 1> tid=0x26] Member 172.16.201.183(datanode3:74167)<v17>:1027 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 18:36:43.556 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_0
+
+[info 2018/10/10 18:36:43.562 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_0 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.563 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_0 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.563 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_0 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.563 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_0 completed
+
+[info 2018/10/10 18:36:43.564 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.590 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_1
+
+[info 2018/10/10 18:36:43.594 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_1 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.597 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_1 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.597 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_1 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.597 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_1 completed
+
+[info 2018/10/10 18:36:43.597 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.610 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_2
+
+[info 2018/10/10 18:36:43.616 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_2 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.616 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_2 completed
+
+[info 2018/10/10 18:36:43.630 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.645 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_3
+
+[info 2018/10/10 18:36:43.647 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_3 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.647 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_3 completed
+
+[info 2018/10/10 18:36:43.656 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.671 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.685 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.694 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_6
+
+[info 2018/10/10 18:36:43.697 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_6 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.698 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_6 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.698 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_6 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.699 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_6 completed
+
+[info 2018/10/10 18:36:43.699 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.707 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_7
+
+[info 2018/10/10 18:36:43.710 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_7 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.710 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_7 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.711 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_7 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.711 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_7 completed
+
+[info 2018/10/10 18:36:43.711 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.716 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_8
+
+[info 2018/10/10 18:36:43.717 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_8 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.717 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_8 completed
+
+[info 2018/10/10 18:36:43.724 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.735 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.740 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_10
+
+[info 2018/10/10 18:36:43.741 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_10 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.741 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_10 completed
+
+[info 2018/10/10 18:36:43.747 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.758 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.763 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_12
+
+[info 2018/10/10 18:36:43.763 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_12 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.764 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_12 completed
+
+[info 2018/10/10 18:36:43.769 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.780 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.787 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_14
+
+[info 2018/10/10 18:36:43.789 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_14 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.790 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_14 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.790 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_14 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.790 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_14 completed
+
+[info 2018/10/10 18:36:43.790 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.796 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_15
+
+[info 2018/10/10 18:36:43.798 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_15 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.799 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_15 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.799 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_15 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.800 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_15 completed
+
+[info 2018/10/10 18:36:43.800 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.804 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_16
+
+[info 2018/10/10 18:36:43.804 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_16 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.805 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_16 completed
+
+[info 2018/10/10 18:36:43.811 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.821 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.832 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.835 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_19
+
+[info 2018/10/10 18:36:43.836 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_19 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.836 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_19 completed
+
+[info 2018/10/10 18:36:43.842 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.848 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_20
+
+[info 2018/10/10 18:36:43.850 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_20 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.851 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_20 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.851 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_20 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.851 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_20 completed
+
+[info 2018/10/10 18:36:43.851 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.861 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.865 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_22
+
+[info 2018/10/10 18:36:43.866 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_22 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.866 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_22 completed
+
+[info 2018/10/10 18:36:43.872 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.878 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_23
+
+[info 2018/10/10 18:36:43.880 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_23 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.880 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_23 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.880 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_23 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.881 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_23 completed
+
+[info 2018/10/10 18:36:43.881 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.889 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_24
+
+[info 2018/10/10 18:36:43.891 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_24 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.892 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_24 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.892 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_24 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.892 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_24 completed
+
+[info 2018/10/10 18:36:43.892 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.899 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_25
+
+[info 2018/10/10 18:36:43.902 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_25 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.903 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_25 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.903 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_25 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.903 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_25 completed
+
+[info 2018/10/10 18:36:43.903 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.907 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_26
+
+[info 2018/10/10 18:36:43.908 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_26 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.908 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_26 completed
+
+[info 2018/10/10 18:36:43.913 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.916 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_27
+
+[info 2018/10/10 18:36:43.917 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_27 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.917 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_27 completed
+
+[info 2018/10/10 18:36:43.923 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.932 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.940 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.945 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_30
+
+[info 2018/10/10 18:36:43.947 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_30 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:43.948 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_30 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.948 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_30 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:43.948 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_30 completed
+
+[info 2018/10/10 18:36:43.948 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.952 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_31
+
+[info 2018/10/10 18:36:43.952 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_31 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.952 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_31 completed
+
+[info 2018/10/10 18:36:43.958 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.966 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.972 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_33
+
+[info 2018/10/10 18:36:43.974 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_33 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.974 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_33 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.975 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_33 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.975 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_33 completed
+
+[info 2018/10/10 18:36:43.975 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.979 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_34
+
+[info 2018/10/10 18:36:43.980 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_34 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:43.980 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_34 completed
+
+[info 2018/10/10 18:36:43.985 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.993 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.999 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_36
+
+[info 2018/10/10 18:36:44.001 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_36 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.002 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_36 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.002 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_36 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.002 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_36 completed
+
+[info 2018/10/10 18:36:44.003 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.007 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_37
+
+[info 2018/10/10 18:36:44.007 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_37 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.008 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_37 completed
+
+[info 2018/10/10 18:36:44.013 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.022 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.025 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_39
+
+[info 2018/10/10 18:36:44.025 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_39 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.025 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_39 completed
+
+[info 2018/10/10 18:36:44.031 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.038 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.046 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.049 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_42
+
+[info 2018/10/10 18:36:44.050 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_42 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.050 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_42 completed
+
+[info 2018/10/10 18:36:44.055 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.060 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_43
+
+[info 2018/10/10 18:36:44.062 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_43 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.062 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_43 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.063 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_43 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.063 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_43 completed
+
+[info 2018/10/10 18:36:44.063 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.068 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_44
+
+[info 2018/10/10 18:36:44.070 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_44 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.070 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_44 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.070 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_44 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.071 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_44 completed
+
+[info 2018/10/10 18:36:44.071 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.079 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.081 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_46
+
+[info 2018/10/10 18:36:44.082 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_46 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.082 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_46 completed
+
+[info 2018/10/10 18:36:44.087 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.092 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_47
+
+[info 2018/10/10 18:36:44.094 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_47 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.094 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_47 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.094 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_47 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.095 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_47 completed
+
+[info 2018/10/10 18:36:44.095 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.103 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.106 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_49
+
+[info 2018/10/10 18:36:44.107 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_49 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.107 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_49 completed
+
+[info 2018/10/10 18:36:44.111 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.116 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_50
+
+[info 2018/10/10 18:36:44.117 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_50 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.118 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_50 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.118 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_50 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.118 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_50 completed
+
+[info 2018/10/10 18:36:44.118 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.122 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_51
+
+[info 2018/10/10 18:36:44.123 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_51 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.123 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_51 completed
+
+[info 2018/10/10 18:36:44.128 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.135 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.140 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_53
+
+[info 2018/10/10 18:36:44.141 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_53 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.142 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_53 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.142 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_53 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.142 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_53 completed
+
+[info 2018/10/10 18:36:44.142 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.148 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_54
+
+[info 2018/10/10 18:36:44.149 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_54 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.150 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_54 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.150 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_54 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.150 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_54 completed
+
+[info 2018/10/10 18:36:44.150 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.157 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.160 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_56
+
+[info 2018/10/10 18:36:44.160 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_56 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.160 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_56 completed
+
+[info 2018/10/10 18:36:44.164 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.168 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_57
+
+[info 2018/10/10 18:36:44.170 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_57 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.170 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_57 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.170 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_57 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.171 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_57 completed
+
+[info 2018/10/10 18:36:44.171 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.178 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.180 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_59
+
+[info 2018/10/10 18:36:44.181 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_59 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.181 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_59 completed
+
+[info 2018/10/10 18:36:44.186 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.191 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_60
+
+[info 2018/10/10 18:36:44.192 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_60 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.193 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_60 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.193 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_60 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.193 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_60 completed
+
+[info 2018/10/10 18:36:44.194 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.196 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_61
+
+[info 2018/10/10 18:36:44.197 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_61 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.197 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_61 completed
+
+[info 2018/10/10 18:36:44.201 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.207 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.214 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.216 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_64
+
+[info 2018/10/10 18:36:44.216 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_64 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.217 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_64 completed
+
+[info 2018/10/10 18:36:44.221 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.225 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_65
+
+[info 2018/10/10 18:36:44.226 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_65 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.226 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_65 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.226 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_65 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.227 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_65 completed
+
+[info 2018/10/10 18:36:44.227 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.231 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_66
+
+[info 2018/10/10 18:36:44.232 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_66 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.232 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_66 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.233 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_66 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.233 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_66 completed
+
+[info 2018/10/10 18:36:44.233 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.240 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.243 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_68
+
+[info 2018/10/10 18:36:44.244 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_68 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.244 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_68 completed
+
+[info 2018/10/10 18:36:44.248 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.252 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_69
+
+[info 2018/10/10 18:36:44.253 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_69 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.253 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_69 completed
+
+[info 2018/10/10 18:36:44.257 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.264 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.269 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_71
+
+[info 2018/10/10 18:36:44.270 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_71 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.271 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_71 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.271 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_71 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.271 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_71 completed
+
+[info 2018/10/10 18:36:44.271 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.278 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.283 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_73
+
+[info 2018/10/10 18:36:44.284 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_73 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.285 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] _B__person_73 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.285 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region _B__person_73 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.285 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_73 completed
+
+[info 2018/10/10 18:36:44.285 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.288 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_74
+
+[info 2018/10/10 18:36:44.289 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_74 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.289 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_74 completed
+
+[info 2018/10/10 18:36:44.293 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.296 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_75
+
+[info 2018/10/10 18:36:44.296 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_75 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.296 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_75 completed
+
+[info 2018/10/10 18:36:44.300 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.307 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.315 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.317 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_78
+
+[info 2018/10/10 18:36:44.318 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_78 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.318 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_78 completed
+
+[info 2018/10/10 18:36:44.321 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.325 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_79
+
+[info 2018/10/10 18:36:44.327 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_79 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.327 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_79 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.327 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_79 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.327 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_79 completed
+
+[info 2018/10/10 18:36:44.327 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.332 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_80
+
+[info 2018/10/10 18:36:44.333 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_80 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.334 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_80 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.334 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_80 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.334 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_80 completed
+
+[info 2018/10/10 18:36:44.334 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.342 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.344 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_82
+
+[info 2018/10/10 18:36:44.345 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_82 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.345 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_82 completed
+
+[info 2018/10/10 18:36:44.349 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.356 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.358 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_84
+
+[info 2018/10/10 18:36:44.359 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_84 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.359 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_84 completed
+
+[info 2018/10/10 18:36:44.363 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.367 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_85
+
+[info 2018/10/10 18:36:44.369 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_85 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.369 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_85 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.369 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_85 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.370 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_85 completed
+
+[info 2018/10/10 18:36:44.370 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.375 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_86
+
+[info 2018/10/10 18:36:44.376 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_86 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.377 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_86 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.377 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_86 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.377 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_86 completed
+
+[info 2018/10/10 18:36:44.377 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.385 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.389 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_88
+
+[info 2018/10/10 18:36:44.390 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_88 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.391 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_88 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.391 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_88 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.391 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_88 completed
+
+[info 2018/10/10 18:36:44.391 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.395 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_89
+
+[info 2018/10/10 18:36:44.395 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_89 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.395 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_89 completed
+
+[info 2018/10/10 18:36:44.399 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.401 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initializing region _B__person_90
+
+[info 2018/10/10 18:36:44.402 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Region /__PR/_B__person_90 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.402 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Initialization of region _B__person_90 completed
+
+[info 2018/10/10 18:36:44.406 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.411 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_91
+
+[info 2018/10/10 18:36:44.412 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_91 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.413 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_91 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.413 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_91 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.413 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_91 completed
+
+[info 2018/10/10 18:36:44.413 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.420 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.427 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.429 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_94
+
+[info 2018/10/10 18:36:44.430 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_94 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.430 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_94 completed
+
+[info 2018/10/10 18:36:44.433 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.440 EDT datanode2 <Pooled Waiting Message Processor 2> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.444 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_96
+
+[info 2018/10/10 18:36:44.445 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_96 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.446 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_96 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.446 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_96 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.446 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_96 completed
+
+[info 2018/10/10 18:36:44.446 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.451 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_97
+
+[info 2018/10/10 18:36:44.452 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_97 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.453 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_97 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.453 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_97 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.453 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_97 completed
+
+[info 2018/10/10 18:36:44.453 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.456 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_98
+
+[info 2018/10/10 18:36:44.456 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region /__PR/_B__person_98 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.456 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_98 completed
+
+[info 2018/10/10 18:36:44.460 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.463 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_99
+
+[info 2018/10/10 18:36:44.464 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_99 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.464 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_99 completed
+
+[info 2018/10/10 18:36:44.467 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.652 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.658 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_101
+
+[info 2018/10/10 18:36:44.659 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_101 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.660 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_101 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.660 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_101 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.660 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_101 completed
+
+[info 2018/10/10 18:36:44.660 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.663 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_102
+
+[info 2018/10/10 18:36:44.664 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_102 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.664 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_102 completed
+
+[info 2018/10/10 18:36:44.668 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.675 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.681 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.683 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_105
+
+[info 2018/10/10 18:36:44.683 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_105 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.683 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_105 completed
+
+[info 2018/10/10 18:36:44.686 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.690 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_106
+
+[info 2018/10/10 18:36:44.692 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_106 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.692 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_106 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.692 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_106 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.692 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_106 completed
+
+[info 2018/10/10 18:36:44.692 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.697 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_107
+
+[info 2018/10/10 18:36:44.698 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_107 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.698 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_107 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.698 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_107 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.699 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_107 completed
+
+[info 2018/10/10 18:36:44.699 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.701 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_108
+
+[info 2018/10/10 18:36:44.702 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region /__PR/_B__person_108 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null.
+
+[info 2018/10/10 18:36:44.702 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_108 completed
+
+[info 2018/10/10 18:36:44.705 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.711 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.716 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initializing region _B__person_110
+
+[info 2018/10/10 18:36:44.717 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_110 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.717 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] _B__person_110 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.717 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Region _B__person_110 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.717 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Initialization of region _B__person_110 completed
+
+[info 2018/10/10 18:36:44.717 EDT datanode2 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.724 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.728 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initializing region _B__person_112
+
+[info 2018/10/10 18:36:44.729 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_112 requesting initial image from 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:36:44.729 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] _B__person_112 is done getting image from 172.16.201.183(datanode1:74085)<v15>:1025. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.729 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Region _B__person_112 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode2/data/person created at timestamp 1539210948465 version 0 diskStoreId cf8804628e224490-b70bfaaf62ef368e name null with data from 172.16.201.183(datanode1:74085)<v15>:1025.
+
+[info 2018/10/10 18:36:44.729 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Initialization of region _B__person_112 completed
+
+[info 2018/10/10 18:36:44.730 EDT datanode2 <Pooled Waiting Message Processor 1> tid=0x5c] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:37:23.797 EDT datanode2 <Function Execution Processor1> tid=0x54] Received GFSH shutdown. Shutting down member 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:37:23.808 EDT datanode2 <pool-3-thread-1> tid=0x63] GemFireCache[id = 841166421; isClosing = true; isShutDownAll = false; created = Wed Oct 10 18:35:47 EDT 2018; server = true; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2018/10/10 18:37:23.811 EDT datanode2 <pool-3-thread-1> tid=0x63] Cache server on port 10,200 is shutting down.
+
+[info 2018/10/10 18:37:23.882 EDT datanode2 <pool-3-thread-1> tid=0x63] Created oplog#1 krf for disk store person-disk-store.
+
+[info 2018/10/10 18:37:23.883 EDT datanode2 <pool-3-thread-1> tid=0x63] Created oplog#1 krf for disk store pdx-disks-store.
+
+[info 2018/10/10 18:37:24.112 EDT datanode2 <Pooled High Priority Message Processor 1> tid=0x26] received leave request from 172.16.201.183(datanode1:74085)<v15>:1025 for 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:37:24.113 EDT datanode2 <Pooled High Priority Message Processor 1> tid=0x26] Member at 172.16.201.183(datanode1:74085)<v15>:1025 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/10 18:37:24.143 EDT datanode2 <Pooled High Priority Message Processor 1> tid=0x26] received leave request from 172.16.201.183(datanode3:74167)<v17>:1027 for 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:37:24.143 EDT datanode2 <Pooled High Priority Message Processor 1> tid=0x26] Member at 172.16.201.183(datanode3:74167)<v17>:1027 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/10 18:37:24.154 EDT datanode2 <pool-3-thread-1> tid=0x63] Shutting down DistributionManager 172.16.201.183(datanode2:74128)<v16>:1026. 
+
+[info 2018/10/10 18:37:25.259 EDT datanode2 <pool-3-thread-1> tid=0x63] Now closing distribution for 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:37:25.260 EDT datanode2 <pool-3-thread-1> tid=0x63] Stopping membership services
+
+[info 2018/10/10 18:37:25.262 EDT datanode2 <Geode Failure Detection Server thread 0> tid=0x1f] GMSHealthMonitor server thread exiting
+
+[info 2018/10/10 18:37:25.263 EDT datanode2 <pool-3-thread-1> tid=0x63] GMSHealthMonitor server socket is closed in stopServices().
+
+[info 2018/10/10 18:37:25.263 EDT datanode2 <pool-3-thread-1> tid=0x63] GMSHealthMonitor serverSocketExecutor is terminated
+
+[warning 2018/10/10 18:37:25.265 EDT datanode2 <TransferQueueBundler,gibson-14328> tid=0x1a] JGRP000034: 172.16.201.183<v16>:1026: failure sending message to /172.16.201.183: java.net.SocketException: Socket is closed
+
+[info 2018/10/10 18:37:25.269 EDT datanode2 <pool-3-thread-1> tid=0x63] DistributionManager stopped in 1,115ms.
+
+[info 2018/10/10 18:37:25.269 EDT datanode2 <pool-3-thread-1> tid=0x63] Marking DistributionManager 172.16.201.183(datanode2:74128)<v16>:1026 as closed.

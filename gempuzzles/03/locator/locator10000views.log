@@ -1,0 +1,37 @@
+
+[info 2018/10/10 18:11:37.456 EDT <main> tid=0x1] Log opened with new distributed system connection.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|0] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024]
+
+[info 2018/10/10 18:13:56.920 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode1:71909)<v1>:1025.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|1] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:71909)<v1>:1025{lead}]
+
+[info 2018/10/10 18:14:31.241 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode2:71944)<v2>:1026.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|2] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:71909)<v1>:1025{lead}, 172.16.201.183(datanode2:71944)<v2>:1026]
+
+[info 2018/10/10 18:14:52.619 EDT <P2P message reader for 172.16.201.183(datanode1:71909)<v1>:1025 shared ordered uid=2 port=59160> tid=0x5f] server count: 2 connected client count: 0 client subscription queue count: 0
+  current servers : 172.16.201.183(datanode1:71909)<v1>:1025 172.16.201.183(datanode2:71944)<v2>:1026 
+
+[info 2018/10/10 18:14:55.670 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode3:71981)<v3>:1027.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|3] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:71909)<v1>:1025{lead}, 172.16.201.183(datanode2:71944)<v2>:1026, 172.16.201.183(datanode3:71981)<v3>:1027]
+
+[info 2018/10/10 18:21:50.715 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode1:72403)<v5>:1025.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|5] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:72403)<v5>:1025{lead}]
+
+[info 2018/10/10 18:22:09.622 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode2:72452)<v6>:1026.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|6] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:72403)<v5>:1025{lead}, 172.16.201.183(datanode2:72452)<v6>:1026]
+
+[info 2018/10/10 18:22:25.577 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode3:72493)<v7>:1027.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|7] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:72403)<v5>:1025{lead}, 172.16.201.183(datanode2:72452)<v6>:1026, 172.16.201.183(datanode3:72493)<v7>:1027]
+
+[info 2018/10/10 18:25:32.756 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode3:72618)<v9>:1025.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|9] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:72618)<v9>:1025{lead}]
+
+[info 2018/10/10 18:25:43.707 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode2:72647)<v10>:1026.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|10] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:72618)<v9>:1025{lead}, 172.16.201.183(datanode2:72647)<v10>:1026]
+
+[info 2018/10/10 18:25:54.186 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode1:72673)<v11>:1027.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|11] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:72618)<v9>:1025{lead}, 172.16.201.183(datanode2:72647)<v10>:1026, 172.16.201.183(datanode1:72673)<v11>:1027]
+
+[info 2018/10/10 18:28:13.051 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode3:72843)<v13>:1025.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|13] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:72843)<v13>:1025{lead}]
+
+[info 2018/10/10 18:35:21.620 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode1:74085)<v15>:1025.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|15] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}]
+
+[info 2018/10/10 18:35:47.633 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode2:74128)<v16>:1026.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|16] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026]
+
+[info 2018/10/10 18:36:06.496 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode3:74167)<v17>:1027.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|17] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026, 172.16.201.183(datanode3:74167)<v17>:1027]
+
+[info 2018/10/10 18:38:54.967 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode3:74417)<v19>:1025.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|19] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:74417)<v19>:1025{lead}]
+
+[info 2018/10/10 18:39:20.258 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode2:74457)<v20>:1026.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|20] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:74417)<v19>:1025{lead}, 172.16.201.183(datanode2:74457)<v20>:1026]
+
+[info 2018/10/10 18:40:07.450 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 172.16.201.183(datanode1:74523)<v22>:1026.  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|22] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode3:74417)<v19>:1025{lead}, 172.16.201.183(datanode1:74523)<v22>:1026]

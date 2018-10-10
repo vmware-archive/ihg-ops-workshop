@@ -1,0 +1,1482 @@
+
+[info 2018/10/10 18:35:21.042 EDT datanode1 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  locators=localhost[10000]
+  start-dev-rest-api=false
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=datanode1
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/datanode1.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cache-xml-file=cache.xml
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 18:35:21.065 EDT datanode1 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2018-01-27 01:04:22 +0000
+  Build-Id: root 12
+  Build-Java-Version: 1.8.0_161
+  Build-Platform: Linux 4.4.0-62-generic amd64
+  GemFire-Source-Date: 2018-01-12 16:54:53 +0000
+  GemFire-Source-Repository: support/9.3
+  GemFire-Source-Revision: 65ac182e9236ed9afb50dcf960212a5d6f3ef527
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.3.0
+  Source-Date: 2018-01-26 16:35:20 +0000
+  Source-Repository: support/9.3
+  Source-Revision: 47d3d26957f6378f711698868350dafb996d7e10
+  Native version: native code unavailable
+  Running on: /172.16.201.183, 8 cpu(s), x86_64 Mac OS X 10.13.6 
+  Communications version: 75
+  Process ID: 74085
+  User: rmay
+  Current dir: /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1
+  Home dir: /Users/rmay
+  Command Line Parameters:
+    -Dgemfire.locators=localhost[10000]
+    -Dgemfire.start-dev-rest-api=false
+    -Dgemfire.use-cluster-configuration=true
+    -XX:OnOutOfMemoryError=kill -KILL %p
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/rmay/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.locators = localhost[10000]
+      gemfire.start-dev-rest-api = false
+      gemfire.use-cluster-configuration = true
+      gopherProxySet = false
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/rmay/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_102-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_102
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.102-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/jna-3504051/jna8601800838895795101.tmp
+      line.separator = 
+      os.version = 10.13.6
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.ServerLauncher start datanode1 --server-port=10100
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/New_York
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2018/10/10 18:35:21.070 EDT datanode1 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  locators=localhost[10000]
+  start-dev-rest-api=false
+  use-cluster-configuration=true
+  ### GemFire Properties defined with api ###
+  name=datanode1
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/datanode1.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cache-xml-file=cache.xml
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-cluster-configuration=true
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=false
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  load-cluster-configuration-from-dir=false
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 18:35:21.073 EDT datanode1 <main> tid=0x1] initializing InternalDataSerializer with 3 services
+
+[info 2018/10/10 18:35:21.180 EDT datanode1 <main> tid=0x1] Starting membership services
+
+[info 2018/10/10 18:35:21.257 EDT datanode1 <main> tid=0x1] JGroups channel created (took 77ms)
+
+[info 2018/10/10 18:35:21.279 EDT datanode1 <main> tid=0x1] GemFire P2P Listener started on /172.16.201.183:61085
+
+[info 2018/10/10 18:35:21.280 EDT datanode1 <Geode Failure Detection Server thread 0> tid=0x1f] Started failure detection server thread on /172.16.201.183:46664.
+
+[info 2018/10/10 18:35:21.295 EDT datanode1 <main> tid=0x1] Attempting to join the distributed system through coordinator 172.16.201.183(locator:71770:locator)<ec><v0>:1024 using address 172.16.201.183(datanode1:74085):1025
+
+[info 2018/10/10 18:35:21.612 EDT datanode1 <unicast receiver,gibson-49709> tid=0x1b] received new view: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|15] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}]
+  old view is: null
+
+[info 2018/10/10 18:35:21.618 EDT datanode1 <main> tid=0x1] Finished joining (took 337ms).
+
+[info 2018/10/10 18:35:21.619 EDT datanode1 <main> tid=0x1] Starting DistributionManager 172.16.201.183(datanode1:74085)<v15>:1025.  (took 518 ms)
+
+[info 2018/10/10 18:35:21.621 EDT datanode1 <main> tid=0x1] Initial (distribution manager) view =  View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|15] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}]
+
+[info 2018/10/10 18:35:21.621 EDT datanode1 <main> tid=0x1] Admitting member <172.16.201.183(locator:71770:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2018/10/10 18:35:21.622 EDT datanode1 <main> tid=0x1] Admitting member <172.16.201.183(datanode1:74085)<v15>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/10 18:35:21.638 EDT datanode1 <P2P message reader for 172.16.201.183(locator:71770:locator)<ec><v0>:1024 shared unordered uid=11 port=59465> tid=0x24] Member 172.16.201.183(locator:71770:locator)<ec><v0>:1024 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 18:35:21.685 EDT datanode1 <main> tid=0x1] Received cluster configuration from the locator
+
+[info 2018/10/10 18:35:21.718 EDT datanode1 <main> tid=0x1] 
+  ***************************************************************
+  Configuration for  'cluster'
+  
+  Jar files to deployed
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <cache xmlns="http://geode.apache.org/schema/cache" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" copy-on-read="false" is-server="false" lock-lease="120" lock-timeout="60" search-timeout="300" version="1.0" xsi:schemaLocation="http://geode.apache.org/schema/cache http://geode.apache.org/schema/cache/cache-1.0.xsd">
+  <disk-store name="person-disk-store">
+      <disk-dirs>
+        <disk-dir>data/person</disk-dir>
+      </disk-dirs>
+    </disk-store>
+  <disk-store name="pdx-disks-store">
+      <disk-dirs>
+        <disk-dir>data/pdx</disk-dir>
+      </disk-dirs>
+    </disk-store>
+  <pdx disk-store-name="pdx-disks-store" persistent="true" read-serialized="true"/>
+  <region name="person">
+      <region-attributes data-policy="persistent-partition" disk-store-name="person-disk-store">
+        <partition-attributes redundant-copies="1"/>
+      </region-attributes>
+    </region>
+  </cache>
+  
+
+[info 2018/10/10 18:35:21.812 EDT datanode1 <main> tid=0x1] Requesting cluster configuration
+
+[info 2018/10/10 18:35:21.863 EDT datanode1 <main> tid=0x1] Initializing region _monitoringRegion_172.16.201.183<v15>1025
+
+[info 2018/10/10 18:35:21.869 EDT datanode1 <main> tid=0x1] The following persistent member has been revoked:
+  71e3b0da-6fb9-4672-9eac-c93f108fb27d
+
+[info 2018/10/10 18:35:21.869 EDT datanode1 <main> tid=0x1] The following persistent member has been revoked:
+  4610329e-ac66-456a-a8d9-2e305163b69a
+
+[info 2018/10/10 18:35:21.869 EDT datanode1 <main> tid=0x1] The following persistent member has been revoked:
+  4963e6a6-9798-435f-b176-37189e8bd013
+
+[info 2018/10/10 18:35:21.869 EDT datanode1 <main> tid=0x1] The following persistent member has been revoked:
+  44cf9d34-27e2-40e4-a519-56d2e4255638
+
+[info 2018/10/10 18:35:21.873 EDT datanode1 <main> tid=0x1] Region _monitoringRegion_172.16.201.183<v15>1025 requesting initial image from 172.16.201.183(locator:71770:locator)<ec><v0>:1024
+
+[info 2018/10/10 18:35:21.876 EDT datanode1 <main> tid=0x1] _monitoringRegion_172.16.201.183<v15>1025 is done getting image from 172.16.201.183(locator:71770:locator)<ec><v0>:1024. isDeltaGII is false
+
+[info 2018/10/10 18:35:21.877 EDT datanode1 <main> tid=0x1] Initialization of region _monitoringRegion_172.16.201.183<v15>1025 completed
+
+[info 2018/10/10 18:35:22.189 EDT datanode1 <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2018/10/10 18:35:22.201 EDT datanode1 <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2018/10/10 18:35:22.202 EDT datanode1 <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2018/10/10 18:35:22.361 EDT datanode1 <main> tid=0x1] Created disk store pdx-disks-store with unique id bcb6f2553bf34144-b90bebc56160fdc4
+
+[info 2018/10/10 18:35:22.369 EDT datanode1 <main> tid=0x1] recovery region initialization took 1 ms
+
+[info 2018/10/10 18:35:22.395 EDT datanode1 <main> tid=0x1] Created oplog#1 drf for disk store pdx-disks-store.
+
+[info 2018/10/10 18:35:22.398 EDT datanode1 <main> tid=0x1] Created oplog#1 crf for disk store pdx-disks-store.
+
+[info 2018/10/10 18:35:22.401 EDT datanode1 <main> tid=0x1] Initializing region PdxTypes
+
+[info 2018/10/10 18:35:22.403 EDT datanode1 <main> tid=0x1] Region /PdxTypes was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/pdx created at timestamp 1539210922401 version 0 diskStoreId bcb6f2553bf34144-b90bebc56160fdc4 name datanode1.
+
+[info 2018/10/10 18:35:22.404 EDT datanode1 <main> tid=0x1] Initialization of region PdxTypes completed
+
+[info 2018/10/10 18:35:22.407 EDT datanode1 <main> tid=0x1] Created disk store person-disk-store with unique id 50a17775167549a4-992fac7969426c53
+
+[info 2018/10/10 18:35:22.408 EDT datanode1 <main> tid=0x1] recovery region initialization took 1 ms
+
+[info 2018/10/10 18:35:22.436 EDT datanode1 <main> tid=0x1] Initializing region __PR
+
+[info 2018/10/10 18:35:22.437 EDT datanode1 <main> tid=0x1] Initialization of region __PR completed
+
+[info 2018/10/10 18:35:22.460 EDT datanode1 <main> tid=0x1] Partitioned Region /person is born with prId=5 ident:#person
+
+[info 2018/10/10 18:35:22.478 EDT datanode1 <main> tid=0x1] Created oplog#1 drf for disk store person-disk-store.
+
+[info 2018/10/10 18:35:22.478 EDT datanode1 <main> tid=0x1] Created oplog#1 crf for disk store person-disk-store.
+
+[info 2018/10/10 18:35:22.556 EDT datanode1 <main> tid=0x1] Cache server connection listener bound to address 172.16.201.183-0.0.0.0/0.0.0.0:10100 with backlog 1,000.
+
+[info 2018/10/10 18:35:22.563 EDT datanode1 <main> tid=0x1] ClientHealthMonitorThread maximum allowed time between pings: 60,000
+
+[warning 2018/10/10 18:35:22.564 EDT datanode1 <main> tid=0x1] Handshaker max Pool size: 4
+
+[info 2018/10/10 18:35:22.568 EDT datanode1 <main> tid=0x1] CacheServer Configuration:   port=10100 max-connections=800 max-threads=0 notify-by-subscription=true socket-buffer-size=32768 maximum-time-between-pings=60000 maximum-message-count=230000 message-time-to-live=180 eviction-policy=none capacity=1 overflow directory=. groups=[] loadProbe=ConnectionCountProbe loadPollInterval=5000 tcpNoDelay=true
+
+[info 2018/10/10 18:35:47.633 EDT datanode1 <unicast receiver,gibson-49709> tid=0x1b] received new view: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|16] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026]
+  old view is: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|15] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}]
+
+[info 2018/10/10 18:35:47.635 EDT datanode1 <View Message Processor> tid=0x53] Membership: Processing addition < 172.16.201.183(datanode2:74128)<v16>:1026 >
+
+[info 2018/10/10 18:35:47.635 EDT datanode1 <View Message Processor> tid=0x53] Admitting member <172.16.201.183(datanode2:74128)<v16>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/10 18:35:47.656 EDT datanode1 <Pooled High Priority Message Processor 1> tid=0x26] Member 172.16.201.183(datanode2:74128)<v16>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 18:36:06.496 EDT datanode1 <unicast receiver,gibson-49709> tid=0x1b] received new view: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|17] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026, 172.16.201.183(datanode3:74167)<v17>:1027]
+  old view is: View[172.16.201.183(locator:71770:locator)<ec><v0>:1024|16] members: [172.16.201.183(locator:71770:locator)<ec><v0>:1024, 172.16.201.183(datanode1:74085)<v15>:1025{lead}, 172.16.201.183(datanode2:74128)<v16>:1026]
+
+[info 2018/10/10 18:36:06.497 EDT datanode1 <View Message Processor> tid=0x53] Membership: Processing addition < 172.16.201.183(datanode3:74167)<v17>:1027 >
+
+[info 2018/10/10 18:36:06.497 EDT datanode1 <View Message Processor> tid=0x53] Admitting member <172.16.201.183(datanode3:74167)<v17>:1027>. Now there are 4 non-admin member(s).
+
+[info 2018/10/10 18:36:06.518 EDT datanode1 <Pooled High Priority Message Processor 1> tid=0x26] Member 172.16.201.183(datanode3:74167)<v17>:1027 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 18:36:43.453 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Adding new type: PdxType[dsid=0, typenum=13794045
+          name=io.pivotal.pde.sample.Address
+          fields=[
+          street:String:0:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=-1
+          city:String:1:1:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=1
+          state:String:2:2:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=2
+          zip:String:3:3:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=3]]
+
+[info 2018/10/10 18:36:43.502 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Caching PdxType[dsid=0, typenum=13794045
+          name=io.pivotal.pde.sample.Address
+          fields=[
+          street:String:0:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=-1
+          city:String:1:1:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=1
+          state:String:2:2:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=2
+          zip:String:3:3:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=3]]
+
+[info 2018/10/10 18:36:43.509 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Adding new type: PdxType[dsid=0, typenum=684547
+          name=io.pivotal.pde.sample.Person
+          fields=[
+          age:int:0:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=0
+          lastName:String:1:idx0(relativeOffset)=4:idx1(vlfOffsetIndex)=-1
+          firstName:String:2:1:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=1
+          phone:String:3:2:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=2
+          address:Object:4:3:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=3
+          gender:String:5:4:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=4
+          id:Object:6:5:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=5]]
+
+[info 2018/10/10 18:36:43.514 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Caching PdxType[dsid=0, typenum=684547
+          name=io.pivotal.pde.sample.Person
+          fields=[
+          age:int:0:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=0
+          lastName:String:1:idx0(relativeOffset)=4:idx1(vlfOffsetIndex)=-1
+          firstName:String:2:1:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=1
+          phone:String:3:2:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=2
+          address:Object:4:3:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=3
+          gender:String:5:4:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=4
+          id:Object:6:5:idx0(relativeOffset)=0:idx1(vlfOffsetIndex)=5]]
+
+[info 2018/10/10 18:36:43.540 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_0
+
+[info 2018/10/10 18:36:43.545 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_0 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.545 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_0 completed
+
+[info 2018/10/10 18:36:43.564 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.598 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.620 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_2
+
+[info 2018/10/10 18:36:43.626 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_2 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:43.628 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_2 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.628 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_2 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:43.629 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_2 completed
+
+[info 2018/10/10 18:36:43.629 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.656 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.667 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_4
+
+[info 2018/10/10 18:36:43.670 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_4 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.670 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_4 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.670 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_4 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.671 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_4 completed
+
+[info 2018/10/10 18:36:43.671 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.676 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_5
+
+[info 2018/10/10 18:36:43.677 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_5 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.678 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_5 completed
+
+[info 2018/10/10 18:36:43.685 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.699 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.703 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_7
+
+[info 2018/10/10 18:36:43.704 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_7 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.705 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_7 completed
+
+[info 2018/10/10 18:36:43.712 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.724 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.728 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_9
+
+[info 2018/10/10 18:36:43.729 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_9 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.729 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_9 completed
+
+[info 2018/10/10 18:36:43.735 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.743 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_10
+
+[info 2018/10/10 18:36:43.746 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_10 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:43.746 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_10 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.746 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_10 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:43.747 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_10 completed
+
+[info 2018/10/10 18:36:43.747 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.755 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_11
+
+[info 2018/10/10 18:36:43.757 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_11 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.757 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_11 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.758 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_11 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.758 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_11 completed
+
+[info 2018/10/10 18:36:43.758 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.766 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_12
+
+[info 2018/10/10 18:36:43.768 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_12 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:43.769 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_12 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.769 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_12 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:43.769 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_12 completed
+
+[info 2018/10/10 18:36:43.769 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.773 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_13
+
+[info 2018/10/10 18:36:43.774 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_13 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.774 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_13 completed
+
+[info 2018/10/10 18:36:43.780 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.791 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.794 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_15
+
+[info 2018/10/10 18:36:43.795 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_15 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.795 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_15 completed
+
+[info 2018/10/10 18:36:43.800 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.811 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.818 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_17
+
+[info 2018/10/10 18:36:43.820 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_17 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.820 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_17 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.821 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_17 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.821 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_17 completed
+
+[info 2018/10/10 18:36:43.821 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.828 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_18
+
+[info 2018/10/10 18:36:43.830 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_18 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.831 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_18 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.831 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_18 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.831 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_18 completed
+
+[info 2018/10/10 18:36:43.831 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.842 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.845 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_20
+
+[info 2018/10/10 18:36:43.846 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_20 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.846 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_20 completed
+
+[info 2018/10/10 18:36:43.852 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.858 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_21
+
+[info 2018/10/10 18:36:43.860 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_21 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.860 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_21 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.861 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_21 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.861 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_21 completed
+
+[info 2018/10/10 18:36:43.861 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.872 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.875 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_23
+
+[info 2018/10/10 18:36:43.876 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_23 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.876 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_23 completed
+
+[info 2018/10/10 18:36:43.881 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.893 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.896 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_25
+
+[info 2018/10/10 18:36:43.897 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_25 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.897 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_25 completed
+
+[info 2018/10/10 18:36:43.904 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.909 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_26
+
+[info 2018/10/10 18:36:43.911 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_26 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:43.912 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_26 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.912 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_26 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:43.912 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_26 completed
+
+[info 2018/10/10 18:36:43.913 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.923 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.929 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_28
+
+[info 2018/10/10 18:36:43.930 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_28 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.931 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_28 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.931 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_28 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.931 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_28 completed
+
+[info 2018/10/10 18:36:43.931 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.934 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_29
+
+[info 2018/10/10 18:36:43.935 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_29 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.935 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_29 completed
+
+[info 2018/10/10 18:36:43.940 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.943 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_30
+
+[info 2018/10/10 18:36:43.944 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_30 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.944 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_30 completed
+
+[info 2018/10/10 18:36:43.949 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.958 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.963 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_32
+
+[info 2018/10/10 18:36:43.965 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_32 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:43.965 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_32 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.965 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_32 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:43.966 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_32 completed
+
+[info 2018/10/10 18:36:43.966 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.975 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.982 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_34
+
+[info 2018/10/10 18:36:43.984 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_34 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:43.984 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_34 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:43.984 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_34 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:43.984 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_34 completed
+
+[info 2018/10/10 18:36:43.985 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:43.987 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_35
+
+[info 2018/10/10 18:36:43.988 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_35 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:43.988 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_35 completed
+
+[info 2018/10/10 18:36:43.993 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.003 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.009 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_37
+
+[info 2018/10/10 18:36:44.011 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_37 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.012 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_37 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.012 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_37 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.012 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_37 completed
+
+[info 2018/10/10 18:36:44.012 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.015 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_38
+
+[info 2018/10/10 18:36:44.016 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_38 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.016 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_38 completed
+
+[info 2018/10/10 18:36:44.021 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.031 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.033 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_40
+
+[info 2018/10/10 18:36:44.034 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_40 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.034 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_40 completed
+
+[info 2018/10/10 18:36:44.038 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.044 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_41
+
+[info 2018/10/10 18:36:44.045 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_41 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.046 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_41 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.046 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_41 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.046 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_41 completed
+
+[info 2018/10/10 18:36:44.046 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.051 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_42
+
+[info 2018/10/10 18:36:44.053 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_42 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.054 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_42 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.054 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_42 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.054 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_42 completed
+
+[info 2018/10/10 18:36:44.055 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.063 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.066 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_44
+
+[info 2018/10/10 18:36:44.067 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_44 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.067 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_44 completed
+
+[info 2018/10/10 18:36:44.071 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.074 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_45
+
+[info 2018/10/10 18:36:44.074 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_45 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.074 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_45 completed
+
+[info 2018/10/10 18:36:44.079 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.083 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_46
+
+[info 2018/10/10 18:36:44.085 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_46 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.086 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_46 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.086 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_46 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.086 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_46 completed
+
+[info 2018/10/10 18:36:44.086 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.095 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.098 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_48
+
+[info 2018/10/10 18:36:44.099 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_48 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.099 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_48 completed
+
+[info 2018/10/10 18:36:44.103 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.108 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_49
+
+[info 2018/10/10 18:36:44.110 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_49 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.110 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_49 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.110 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_49 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.110 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_49 completed
+
+[info 2018/10/10 18:36:44.111 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.119 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.128 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.132 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_52
+
+[info 2018/10/10 18:36:44.134 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_52 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.135 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_52 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.135 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_52 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.135 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_52 completed
+
+[info 2018/10/10 18:36:44.135 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.138 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_53
+
+[info 2018/10/10 18:36:44.138 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_53 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.138 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_53 completed
+
+[info 2018/10/10 18:36:44.143 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.151 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.153 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_55
+
+[info 2018/10/10 18:36:44.154 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_55 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.154 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_55 completed
+
+[info 2018/10/10 18:36:44.157 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.161 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_56
+
+[info 2018/10/10 18:36:44.163 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_56 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.163 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_56 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.163 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_56 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.163 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_56 completed
+
+[info 2018/10/10 18:36:44.163 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.171 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.173 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_58
+
+[info 2018/10/10 18:36:44.174 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_58 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.174 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_58 completed
+
+[info 2018/10/10 18:36:44.178 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.183 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_59
+
+[info 2018/10/10 18:36:44.184 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_59 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.185 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_59 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.185 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_59 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.185 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_59 completed
+
+[info 2018/10/10 18:36:44.186 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.194 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.198 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_61
+
+[info 2018/10/10 18:36:44.200 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_61 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.200 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_61 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.200 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_61 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.200 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_61 completed
+
+[info 2018/10/10 18:36:44.200 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.203 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_62
+
+[info 2018/10/10 18:36:44.203 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_62 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.203 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_62 completed
+
+[info 2018/10/10 18:36:44.207 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.211 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_63
+
+[info 2018/10/10 18:36:44.212 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_63 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.213 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_63 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.213 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_63 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.213 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_63 completed
+
+[info 2018/10/10 18:36:44.213 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.221 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.223 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_65
+
+[info 2018/10/10 18:36:44.223 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_65 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.223 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_65 completed
+
+[info 2018/10/10 18:36:44.227 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.229 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_66
+
+[info 2018/10/10 18:36:44.229 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_66 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.229 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_66 completed
+
+[info 2018/10/10 18:36:44.233 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.238 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_67
+
+[info 2018/10/10 18:36:44.239 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_67 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.240 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_67 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.240 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_67 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.240 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_67 completed
+
+[info 2018/10/10 18:36:44.240 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.248 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.254 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_69
+
+[info 2018/10/10 18:36:44.256 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_69 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.256 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_69 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.256 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_69 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.257 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_69 completed
+
+[info 2018/10/10 18:36:44.257 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.259 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_70
+
+[info 2018/10/10 18:36:44.260 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_70 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.260 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_70 completed
+
+[info 2018/10/10 18:36:44.264 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.271 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.276 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_72
+
+[info 2018/10/10 18:36:44.277 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_72 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.278 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_72 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.278 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_72 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.278 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_72 completed
+
+[info 2018/10/10 18:36:44.278 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.281 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_73
+
+[info 2018/10/10 18:36:44.281 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_73 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.281 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_73 completed
+
+[info 2018/10/10 18:36:44.286 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.293 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.300 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.303 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_76
+
+[info 2018/10/10 18:36:44.303 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_76 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.303 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_76 completed
+
+[info 2018/10/10 18:36:44.307 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.312 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_77
+
+[info 2018/10/10 18:36:44.314 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_77 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.314 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_77 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.314 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_77 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.315 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_77 completed
+
+[info 2018/10/10 18:36:44.315 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.319 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_78
+
+[info 2018/10/10 18:36:44.320 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_78 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.321 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_78 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.321 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_78 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.321 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_78 completed
+
+[info 2018/10/10 18:36:44.321 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.323 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_79
+
+[info 2018/10/10 18:36:44.324 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_79 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.324 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_79 completed
+
+[info 2018/10/10 18:36:44.328 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.335 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.339 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_81
+
+[info 2018/10/10 18:36:44.341 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_81 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.341 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_81 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.341 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_81 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.342 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_81 completed
+
+[info 2018/10/10 18:36:44.342 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.346 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_82
+
+[info 2018/10/10 18:36:44.348 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_82 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.348 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_82 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.349 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_82 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.349 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_82 completed
+
+[info 2018/10/10 18:36:44.349 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.351 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_83
+
+[info 2018/10/10 18:36:44.352 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_83 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.352 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_83 completed
+
+[info 2018/10/10 18:36:44.356 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.363 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.365 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_85
+
+[info 2018/10/10 18:36:44.366 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_85 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.366 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_85 completed
+
+[info 2018/10/10 18:36:44.370 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.378 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.380 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_87
+
+[info 2018/10/10 18:36:44.381 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_87 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.381 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_87 completed
+
+[info 2018/10/10 18:36:44.385 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.392 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.396 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_89
+
+[info 2018/10/10 18:36:44.398 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_89 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.398 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_89 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.399 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_89 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.399 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_89 completed
+
+[info 2018/10/10 18:36:44.399 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.406 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.409 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_91
+
+[info 2018/10/10 18:36:44.409 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_91 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.410 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_91 completed
+
+[info 2018/10/10 18:36:44.414 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.418 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_92
+
+[info 2018/10/10 18:36:44.419 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_92 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.420 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_92 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.420 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_92 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.420 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_92 completed
+
+[info 2018/10/10 18:36:44.420 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.424 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_93
+
+[info 2018/10/10 18:36:44.426 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_93 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.426 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_93 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.426 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_93 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.426 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_93 completed
+
+[info 2018/10/10 18:36:44.426 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.431 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_94
+
+[info 2018/10/10 18:36:44.432 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_94 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.433 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_94 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.433 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_94 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.433 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_94 completed
+
+[info 2018/10/10 18:36:44.433 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.436 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_95
+
+[info 2018/10/10 18:36:44.436 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_95 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.436 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_95 completed
+
+[info 2018/10/10 18:36:44.440 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.442 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_96
+
+[info 2018/10/10 18:36:44.443 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_96 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.443 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_96 completed
+
+[info 2018/10/10 18:36:44.446 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.453 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.460 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.465 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_99
+
+[info 2018/10/10 18:36:44.466 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_99 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.467 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_99 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.467 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_99 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.467 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_99 completed
+
+[info 2018/10/10 18:36:44.467 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.646 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_100
+
+[info 2018/10/10 18:36:44.647 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_100 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.647 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_100 completed
+
+[info 2018/10/10 18:36:44.652 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.660 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.668 EDT datanode1 <Pooled Waiting Message Processor 1> tid=0x63] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.671 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_103
+
+[info 2018/10/10 18:36:44.671 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_103 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.671 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_103 completed
+
+[info 2018/10/10 18:36:44.675 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.679 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_104
+
+[info 2018/10/10 18:36:44.680 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_104 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.680 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_104 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.680 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_104 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.681 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_104 completed
+
+[info 2018/10/10 18:36:44.681 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.684 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_105
+
+[info 2018/10/10 18:36:44.685 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_105 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.686 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_105 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.686 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_105 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.686 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_105 completed
+
+[info 2018/10/10 18:36:44.686 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.693 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.695 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_107
+
+[info 2018/10/10 18:36:44.696 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_107 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.696 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_107 completed
+
+[info 2018/10/10 18:36:44.699 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.703 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_108
+
+[info 2018/10/10 18:36:44.704 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_108 requesting initial image from 172.16.201.183(datanode2:74128)<v16>:1026
+
+[info 2018/10/10 18:36:44.704 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_108 is done getting image from 172.16.201.183(datanode2:74128)<v16>:1026. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.705 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_108 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode2:74128)<v16>:1026.
+
+[info 2018/10/10 18:36:44.705 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_108 completed
+
+[info 2018/10/10 18:36:44.705 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.707 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_109
+
+[info 2018/10/10 18:36:44.708 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_109 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.708 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_109 completed
+
+[info 2018/10/10 18:36:44.711 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.718 EDT datanode1 <Pooled Waiting Message Processor 2> tid=0x64] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.722 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_111
+
+[info 2018/10/10 18:36:44.723 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_111 requesting initial image from 172.16.201.183(datanode3:74167)<v17>:1027
+
+[info 2018/10/10 18:36:44.724 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] _B__person_111 is done getting image from 172.16.201.183(datanode3:74167)<v17>:1027. isDeltaGII is false
+
+[info 2018/10/10 18:36:44.724 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region _B__person_111 initialized persistent id: /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null with data from 172.16.201.183(datanode3:74167)<v17>:1027.
+
+[info 2018/10/10 18:36:44.724 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_111 completed
+
+[info 2018/10/10 18:36:44.724 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:36:44.726 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initializing region _B__person_112
+
+[info 2018/10/10 18:36:44.726 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Region /__PR/_B__person_112 was created on this member with the persistent id /172.16.201.183:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/03/datanode1/data/person created at timestamp 1539210922426 version 0 diskStoreId 50a17775167549a4-992fac7969426c53 name null.
+
+[info 2018/10/10 18:36:44.727 EDT datanode1 <ServerConnection on port 10100 Thread 0> tid=0x5e] Initialization of region _B__person_112 completed
+
+[info 2018/10/10 18:36:44.730 EDT datanode1 <Pooled Waiting Message Processor 0> tid=0x22] Configured redundancy of 2 copies has been restored to /person
+
+[info 2018/10/10 18:37:23.797 EDT datanode1 <Function Execution Processor1> tid=0x52] Received GFSH shutdown. Shutting down member 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:37:23.810 EDT datanode1 <pool-3-thread-1> tid=0x66] GemFireCache[id = 164714495; isClosing = true; isShutDownAll = false; created = Wed Oct 10 18:35:21 EDT 2018; server = true; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2018/10/10 18:37:23.814 EDT datanode1 <pool-3-thread-1> tid=0x66] Cache server on port 10,100 is shutting down.
+
+[info 2018/10/10 18:37:23.881 EDT datanode1 <pool-3-thread-1> tid=0x66] Created oplog#1 krf for disk store person-disk-store.
+
+[info 2018/10/10 18:37:23.882 EDT datanode1 <pool-3-thread-1> tid=0x66] Created oplog#1 krf for disk store pdx-disks-store.
+
+[info 2018/10/10 18:37:24.110 EDT datanode1 <pool-3-thread-1> tid=0x66] Shutting down DistributionManager 172.16.201.183(datanode1:74085)<v15>:1025. 
+
+[info 2018/10/10 18:37:25.215 EDT datanode1 <pool-3-thread-1> tid=0x66] Now closing distribution for 172.16.201.183(datanode1:74085)<v15>:1025
+
+[info 2018/10/10 18:37:25.215 EDT datanode1 <pool-3-thread-1> tid=0x66] Stopping membership services
+
+[info 2018/10/10 18:37:25.217 EDT datanode1 <Geode Failure Detection Server thread 0> tid=0x1f] GMSHealthMonitor server thread exiting
+
+[info 2018/10/10 18:37:25.217 EDT datanode1 <pool-3-thread-1> tid=0x66] GMSHealthMonitor server socket is closed in stopServices().
+
+[info 2018/10/10 18:37:25.217 EDT datanode1 <pool-3-thread-1> tid=0x66] GMSHealthMonitor serverSocketExecutor is terminated
+
+[info 2018/10/10 18:37:25.233 EDT datanode1 <pool-3-thread-1> tid=0x66] DistributionManager stopped in 1,123ms.
+
+[info 2018/10/10 18:37:25.233 EDT datanode1 <pool-3-thread-1> tid=0x66] Marking DistributionManager 172.16.201.183(datanode1:74085)<v15>:1025 as closed.
