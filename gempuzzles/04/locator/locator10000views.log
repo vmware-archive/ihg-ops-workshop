@@ -1,0 +1,13 @@
+
+[info 2018/10/10 19:15:20.602 EDT <main> tid=0x1] Log opened with new distributed system connection.  View[192.168.43.139(locator:75815:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:75815:locator)<ec><v0>:1024]
+
+[info 2018/10/10 19:23:15.742 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 192.168.43.139(datanode1:75968)<v1>:1025.  View[192.168.43.139(locator:75815:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:75815:locator)<ec><v0>:1024, 192.168.43.139(datanode1:75968)<v1>:1025{lead}]
+
+[info 2018/10/10 19:24:11.451 EDT <P2P message reader for 192.168.43.139(datanode1:75968)<v1>:1025 shared ordered uid=2 port=60000> tid=0x5f] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 192.168.43.139(datanode1:75968)<v1>:1025 
+
+[info 2018/10/10 19:24:46.271 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 192.168.43.139(datanode2:76005)<v2>:1026.  View[192.168.43.139(locator:75815:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:75815:locator)<ec><v0>:1024, 192.168.43.139(datanode1:75968)<v1>:1025{lead}, 192.168.43.139(datanode2:76005)<v2>:1026]
+
+[info 2018/10/10 19:29:36.818 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 192.168.43.139(datanode1:76226)<v4>:1025.  View[192.168.43.139(locator:75815:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:75815:locator)<ec><v0>:1024, 192.168.43.139(datanode1:76226)<v4>:1025{lead}]
+
+[info 2018/10/10 19:29:50.571 EDT <DM-MemberEventInvoker> tid=0x17] A new member joined: 192.168.43.139(datanode2:76263)<v5>:1026.  View[192.168.43.139(locator:75815:locator)<ec><v0>:1024|5] members: [192.168.43.139(locator:75815:locator)<ec><v0>:1024, 192.168.43.139(datanode1:76226)<v4>:1025{lead}, 192.168.43.139(datanode2:76263)<v5>:1026]
