@@ -1,0 +1,1583 @@
+
+[info 2018/10/10 21:36:12.727 EDT locator <main> tid=0x1] Starting peer location for Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/10 21:36:12.733 EDT locator <main> tid=0x1] Starting Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/10 21:36:12.734 EDT locator <main> tid=0x1] Locator was created at Wed Oct 10 21:36:12 EDT 2018
+
+[info 2018/10/10 21:36:12.734 EDT locator <main> tid=0x1] Listening on port 10000 bound on address 0.0.0.0/0.0.0.0
+
+[info 2018/10/10 21:36:12.735 EDT locator <main> tid=0x1] GemFire peer location service starting.  Other locators:   Locators preferred as coordinators: true  Network partition detection enabled: true  View persistence file: locator10000view.dat
+
+[info 2018/10/10 21:36:12.735 EDT locator <main> tid=0x1] recovery file not found: /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/locator10000view.dat
+
+[info 2018/10/10 21:36:12.736 EDT locator <main> tid=0x1] Starting distributed system
+
+[info 2018/10/10 21:36:12.774 EDT locator <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2018-01-27 01:04:22 +0000
+  Build-Id: root 12
+  Build-Java-Version: 1.8.0_161
+  Build-Platform: Linux 4.4.0-62-generic amd64
+  GemFire-Source-Date: 2018-01-12 16:54:53 +0000
+  GemFire-Source-Repository: support/9.3
+  GemFire-Source-Revision: 65ac182e9236ed9afb50dcf960212a5d6f3ef527
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.3.0
+  Source-Date: 2018-01-26 16:35:20 +0000
+  Source-Repository: support/9.3
+  Source-Revision: 47d3d26957f6378f711698868350dafb996d7e10
+  Native version: native code unavailable
+  Running on: 192.168.43.139/192.168.43.139, 8 cpu(s), x86_64 Mac OS X 10.13.6 
+  Communications version: 75
+  Process ID: 77597
+  User: rmay
+  Current dir: /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator
+  Home dir: /Users/rmay
+  Command Line Parameters:
+    -Dgemfire.enable-cluster-configuration=true
+    -Dgemfire.load-cluster-configuration-from-dir=false
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/rmay/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.enable-cluster-configuration = true
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.load-cluster-configuration-from-dir = false
+      gopherProxySet = false
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/rmay/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_102-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_102
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.102-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/jna-3504051/jna167064834301628977.tmp
+      line.separator = 
+      os.version = 10.13.6
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.LocatorLauncher start locator --port=10000
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/New_York
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2018/10/10 21:36:12.782 EDT locator <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  enable-cluster-configuration=true
+  load-cluster-configuration-from-dir=false
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=192.168.43.139[10000]
+  name=locator
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/locator.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  use-cluster-configuration=true
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/10 21:36:12.786 EDT locator <main> tid=0x1] initializing InternalDataSerializer with 3 services
+
+[info 2018/10/10 21:36:12.899 EDT locator <main> tid=0x1] Starting membership services
+
+[info 2018/10/10 21:36:12.970 EDT locator <main> tid=0x1] JGroups channel created (took 70ms)
+
+[info 2018/10/10 21:36:12.988 EDT locator <main> tid=0x1] GemFire P2P Listener started on /192.168.43.139:9756
+
+[info 2018/10/10 21:36:12.988 EDT locator <main> tid=0x1] This member is hosting a locator will be preferred as a membership coordinator
+
+[info 2018/10/10 21:36:12.989 EDT locator <Geode Failure Detection Server thread 0> tid=0x20] Started failure detection server thread on /192.168.43.139:39457.
+
+[info 2018/10/10 21:36:12.990 EDT locator <main> tid=0x1] Peer locator is connecting to local membership services with ID 192.168.43.139(locator:77597:locator)<ec>:1024
+
+[info 2018/10/10 21:36:13.005 EDT locator <main> tid=0x1] This member is becoming the membership coordinator with address 192.168.43.139(locator:77597:locator)<ec>:1024
+
+[info 2018/10/10 21:36:13.005 EDT locator <main> tid=0x1] received new view: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024]
+  old view is: null
+
+[info 2018/10/10 21:36:13.005 EDT locator <main> tid=0x1] Peer locator received new membership view: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024]
+
+[info 2018/10/10 21:36:13.013 EDT locator <main> tid=0x1] ViewCreator starting on:192.168.43.139(locator:77597:locator)<ec><v0>:1024
+
+[info 2018/10/10 21:36:13.014 EDT locator <Geode Membership View Creator> tid=0x24] View Creator thread is starting
+
+[info 2018/10/10 21:36:13.014 EDT locator <main> tid=0x1] Finished joining (took 24ms).
+
+[info 2018/10/10 21:36:13.014 EDT locator <main> tid=0x1] Starting DistributionManager 192.168.43.139(locator:77597:locator)<ec><v0>:1024.  (took 201 ms)
+
+[info 2018/10/10 21:36:13.014 EDT locator <Geode Membership View Creator> tid=0x24] no recipients for new view aside from myself
+
+[info 2018/10/10 21:36:13.015 EDT locator <main> tid=0x1] Initial (distribution manager) view =  View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024]
+
+[info 2018/10/10 21:36:13.016 EDT locator <main> tid=0x1] Admitting member <192.168.43.139(locator:77597:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2018/10/10 21:36:13.016 EDT locator <main> tid=0x1] 192.168.43.139(locator:77597:locator)<ec><v0>:1024 is the elder and the only member.
+
+[info 2018/10/10 21:36:13.018 EDT locator <main> tid=0x1] Did not hear back from any other system. I am the first one.
+
+[info 2018/10/10 21:36:13.030 EDT locator <main> tid=0x1] Creating cache for locator.
+
+[info 2018/10/10 21:36:13.157 EDT locator <main> tid=0x1] Requesting cluster configuration
+
+[info 2018/10/10 21:36:13.222 EDT locator <main> tid=0x1] Initializing region _monitoringRegion_192.168.43.139<v0>1024
+
+[info 2018/10/10 21:36:13.224 EDT locator <main> tid=0x1] Initialization of region _monitoringRegion_192.168.43.139<v0>1024 completed
+
+[info 2018/10/10 21:36:13.561 EDT locator <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2018/10/10 21:36:13.572 EDT locator <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2018/10/10 21:36:13.573 EDT locator <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2018/10/10 21:36:13.573 EDT locator <main> tid=0x1] Loading previously deployed jars
+
+[info 2018/10/10 21:36:13.584 EDT locator <main> tid=0x1] SharedConfigStatusRequestHandler installed
+
+[info 2018/10/10 21:36:13.653 EDT locator <main> tid=0x1] Created disk store cluster_config with unique id f45ac453c95646a2-8c0d560a2b142033
+
+[info 2018/10/10 21:36:13.661 EDT locator <main> tid=0x1] recovery region initialization took 1 ms
+
+[info 2018/10/10 21:36:13.683 EDT locator <main> tid=0x1] Created oplog#1 drf for disk store cluster_config.
+
+[info 2018/10/10 21:36:13.686 EDT locator <main> tid=0x1] Created oplog#1 crf for disk store cluster_config.
+
+[info 2018/10/10 21:36:13.689 EDT locator <main> tid=0x1] Initializing region _ConfigurationRegion
+
+[info 2018/10/10 21:36:13.690 EDT locator <main> tid=0x1] Region /_ConfigurationRegion was created on this member with the persistent id /192.168.43.139:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/ConfigDiskDir_locator created at timestamp 1539221773688 version 0 diskStoreId f45ac453c95646a2-8c0d560a2b142033 name locator.
+
+[info 2018/10/10 21:36:13.694 EDT locator <main> tid=0x1] Initialization of region _ConfigurationRegion completed
+
+[info 2018/10/10 21:36:13.729 EDT locator <main> tid=0x1] Cluster configuration service start up completed successfully and is now running ....
+
+[info 2018/10/10 21:36:13.729 EDT locator <main> tid=0x1] Locator started on  192.168.43.139[10000]
+
+[info 2018/10/10 21:36:13.729 EDT locator <main> tid=0x1] Starting server location for Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/10 21:36:15.188 EDT locator <locator request thread[1]> tid=0x23] GEODE_HOME:/usr/local/Cellar/gemfire/9.3.0/libexec
+
+[info 2018/10/10 21:36:15.188 EDT locator <locator request thread[1]> tid=0x23] geode-web war found: /usr/local/Cellar/gemfire/9.3.0/libexec/tools/Extensions/geode-web-9.3.0.war
+
+[info 2018/10/10 21:36:15.188 EDT locator <locator request thread[1]> tid=0x23] GEODE_HOME:/usr/local/Cellar/gemfire/9.3.0/libexec
+
+[info 2018/10/10 21:36:15.188 EDT locator <locator request thread[1]> tid=0x23] geode-pulse war found: /usr/local/Cellar/gemfire/9.3.0/libexec/tools/Pulse/geode-pulse-9.3.0.war
+
+[info 2018/10/10 21:36:15.188 EDT locator <locator request thread[1]> tid=0x23] GEODE_HOME:/usr/local/Cellar/gemfire/9.3.0/libexec
+
+[info 2018/10/10 21:36:15.189 EDT locator <locator request thread[1]> tid=0x23] geode-web-api war found: /usr/local/Cellar/gemfire/9.3.0/libexec/tools/Extensions/geode-web-api-9.3.0.war
+
+[info 2018/10/10 21:36:15.737 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization started
+
+[info 2018/10/10 21:36:15.767 EDT locator <locator request thread[1]> tid=0x23] Refreshing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:15 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:36:15.792 EDT locator <locator request thread[1]> tid=0x23] Loading XML bean definitions from ServletContext resource [/WEB-INF/geode-mgmt-servlet.xml]
+
+[info 2018/10/10 21:36:16.105 EDT locator <locator request thread[1]> tid=0x23] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2018/10/10 21:36:16.219 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/operation],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[]) throws javax.management.MalformedObjectNameException,javax.management.MBeanException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException
+
+[info 2018/10/10 21:36:16.220 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2018/10/10 21:36:16.221 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/management/commands],methods=[GET || POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.InputStreamResource> org.apache.geode.management.internal.web.controllers.ShellCommandsController.command(java.lang.String,org.springframework.web.multipart.MultipartFile[]) throws java.io.IOException
+
+[info 2018/10/10 21:36:16.221 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/ping],methods=[GET || HEAD]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.apache.geode.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2018/10/10 21:36:16.221 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/attribute],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String) throws javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,javax.management.InstanceNotFoundException,java.io.IOException,javax.management.MalformedObjectNameException
+
+[info 2018/10/10 21:36:16.222 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version/full],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.fullVersion()
+
+[info 2018/10/10 21:36:16.222 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/query],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.queryNames(org.apache.geode.management.internal.web.domain.QueryParameterSource) throws java.io.IOException
+
+[info 2018/10/10 21:36:16.292 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:15 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:36:16.322 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:15 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:36:16.385 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization completed in 648 ms
+
+[info 2018/10/10 21:36:16.544 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization started
+
+[info 2018/10/10 21:36:16.554 EDT locator <locator request thread[1]> tid=0x23] Refreshing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:16 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:36:16.573 EDT locator <locator request thread[1]> tid=0x23] Loading XML bean definitions from ServletContext resource [/WEB-INF/geode-mgmt-servlet.xml]
+
+[info 2018/10/10 21:36:16.742 EDT locator <locator request thread[1]> tid=0x23] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2018/10/10 21:36:16.804 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/operation],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[]) throws javax.management.MalformedObjectNameException,javax.management.MBeanException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException
+
+[info 2018/10/10 21:36:16.805 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2018/10/10 21:36:16.805 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/management/commands],methods=[GET || POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.InputStreamResource> org.apache.geode.management.internal.web.controllers.ShellCommandsController.command(java.lang.String,org.springframework.web.multipart.MultipartFile[]) throws java.io.IOException
+
+[info 2018/10/10 21:36:16.806 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/ping],methods=[GET || HEAD]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.apache.geode.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2018/10/10 21:36:16.806 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/attribute],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String) throws javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,javax.management.InstanceNotFoundException,java.io.IOException,javax.management.MalformedObjectNameException
+
+[info 2018/10/10 21:36:16.806 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version/full],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.fullVersion()
+
+[info 2018/10/10 21:36:16.807 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/query],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.queryNames(org.apache.geode.management.internal.web.domain.QueryParameterSource) throws java.io.IOException
+
+[info 2018/10/10 21:36:16.862 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:16 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:36:16.898 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:16 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:36:16.995 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization completed in 451 ms
+
+[info 2018/10/10 21:36:21.568 EDT locator <locator request thread[1]> tid=0x23] Registered AccessControlMBean on GemFire:service=AccessControl,type=Distributed
+
+[info 2018/10/10 21:36:21.569 EDT locator <locator request thread[1]> tid=0x23] Registered FileUploaderMBean on GemFire:service=FileUploader,type=Distributed
+
+[info 2018/10/10 21:38:34.482 EDT locator <locator request thread[1]> tid=0x23] This member is becoming coordinator
+
+[info 2018/10/10 21:38:34.496 EDT locator <unicast receiver,gibson-37252> tid=0x1c] Received a join request from 192.168.43.139(datanode1:77707):1025
+
+[info 2018/10/10 21:38:34.805 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/10 21:38:34.805 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}]
+
+[info 2018/10/10 21:38:34.816 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/10 21:38:34.816 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}]
+  old view is: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024]
+
+[info 2018/10/10 21:38:34.816 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}]
+
+[info 2018/10/10 21:38:34.818 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}]
+
+[info 2018/10/10 21:38:34.819 EDT locator <View Message Processor> tid=0x56] Membership: Processing addition < 192.168.43.139(datanode1:77707)<v1>:1025 >
+
+[info 2018/10/10 21:38:34.820 EDT locator <View Message Processor> tid=0x56] Admitting member <192.168.43.139(datanode1:77707)<v1>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/10 21:38:34.822 EDT locator <pool-3-thread-1> tid=0x57] Initializing region _monitoringRegion_192.168.43.139<v1>1025
+
+[info 2018/10/10 21:38:34.839 EDT locator <Pooled High Priority Message Processor 1> tid=0x5b] Member 192.168.43.139(datanode1:77707)<v1>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 21:38:34.860 EDT locator <pool-3-thread-1> tid=0x57] Initialization of region _monitoringRegion_192.168.43.139<v1>1025 completed
+
+[info 2018/10/10 21:38:34.864 EDT locator <pool-3-thread-1> tid=0x57] Initializing region _notificationRegion_192.168.43.139<v1>1025
+
+[info 2018/10/10 21:38:34.866 EDT locator <pool-3-thread-1> tid=0x57] Initialization of region _notificationRegion_192.168.43.139<v1>1025 completed
+
+[info 2018/10/10 21:38:34.892 EDT locator <Function Execution Processor1> tid=0x5c] Received request for configuration  : []
+
+[info 2018/10/10 21:38:34.892 EDT locator <Function Execution Processor1> tid=0x5c] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/10 21:39:14.592 EDT locator <locator request thread[1]> tid=0x23] This member is becoming coordinator
+
+[info 2018/10/10 21:39:14.601 EDT locator <unicast receiver,gibson-37252> tid=0x1c] Received a join request from 192.168.43.139(datanode2:77750):1026
+
+[info 2018/10/10 21:39:14.914 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/10 21:39:14.914 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}, 192.168.43.139(datanode2:77750)<v2>:1026]
+
+[info 2018/10/10 21:39:14.924 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/10 21:39:14.924 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}, 192.168.43.139(datanode2:77750)<v2>:1026]
+  old view is: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}]
+
+[info 2018/10/10 21:39:14.924 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}, 192.168.43.139(datanode2:77750)<v2>:1026]
+
+[info 2018/10/10 21:39:14.925 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:77597:locator)<ec><v0>:1024, 192.168.43.139(datanode1:77707)<v1>:1025{lead}, 192.168.43.139(datanode2:77750)<v2>:1026]
+
+[info 2018/10/10 21:39:14.925 EDT locator <View Message Processor> tid=0x56] Membership: Processing addition < 192.168.43.139(datanode2:77750)<v2>:1026 >
+
+[info 2018/10/10 21:39:14.926 EDT locator <View Message Processor> tid=0x56] Admitting member <192.168.43.139(datanode2:77750)<v2>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/10 21:39:14.927 EDT locator <pool-3-thread-2> tid=0x60] Initializing region _monitoringRegion_192.168.43.139<v2>1026
+
+[info 2018/10/10 21:39:14.950 EDT locator <Pooled High Priority Message Processor 1> tid=0x5b] Member 192.168.43.139(datanode2:77750)<v2>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/10 21:39:14.967 EDT locator <pool-3-thread-2> tid=0x60] Initialization of region _monitoringRegion_192.168.43.139<v2>1026 completed
+
+[info 2018/10/10 21:39:14.968 EDT locator <pool-3-thread-2> tid=0x60] Initializing region _notificationRegion_192.168.43.139<v2>1026
+
+[info 2018/10/10 21:39:14.969 EDT locator <pool-3-thread-2> tid=0x60] Initialization of region _notificationRegion_192.168.43.139<v2>1026 completed
+
+[info 2018/10/10 21:39:14.994 EDT locator <Function Execution Processor1> tid=0x5c] Received request for configuration  : []
+
+[info 2018/10/10 21:39:14.995 EDT locator <Function Execution Processor1> tid=0x5c] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/10 21:46:42.087 EDT locator <RMI TCP Connection(4)-192.168.43.139> tid=0x72] Gfsh executing shutdown on members [192.168.43.139(datanode1:77707)<v1>:1025, 192.168.43.139(datanode2:77750)<v2>:1026]
+
+[info 2018/10/10 21:46:42.089 EDT locator <RMI TCP Connection(4)-192.168.43.139> tid=0x72] Gfsh executing shutdown on members [192.168.43.139(locator:77597:locator)<ec><v0>:1024]
+
+[info 2018/10/10 21:46:42.090 EDT locator <Function Execution Processor1> tid=0x5c] Received GFSH shutdown. Shutting down member 192.168.43.139(locator:77597:locator)<ec><v0>:1024
+
+[info 2018/10/10 21:46:42.140 EDT locator <Pooled High Priority Message Processor 1> tid=0x5b] received leave request from 192.168.43.139(datanode1:77707)<v1>:1025 for 192.168.43.139(datanode1:77707)<v1>:1025
+
+[info 2018/10/10 21:46:42.140 EDT locator <Pooled High Priority Message Processor 2> tid=0x63] received leave request from 192.168.43.139(datanode2:77750)<v2>:1026 for 192.168.43.139(datanode2:77750)<v2>:1026
+
+[info 2018/10/10 21:46:42.140 EDT locator <Pooled High Priority Message Processor 1> tid=0x5b] Member at 192.168.43.139(datanode1:77707)<v1>:1025 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/10 21:46:42.141 EDT locator <Pooled High Priority Message Processor 2> tid=0x63] Member at 192.168.43.139(datanode2:77750)<v2>:1026 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/10 21:46:42.211 EDT locator <pool-8-thread-1> tid=0x7e] Closing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:16 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:46:42.213 EDT locator <pool-8-thread-1> tid=0x7e] Shutting down ExecutorService 'asyncTaskExecutor'
+
+[info 2018/10/10 21:46:42.219 EDT locator <pool-8-thread-1> tid=0x7e] Closing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Wed Oct 10 21:36:15 EDT 2018]; root of context hierarchy
+
+[info 2018/10/10 21:46:42.220 EDT locator <pool-8-thread-1> tid=0x7e] Shutting down ExecutorService 'asyncTaskExecutor'
+
+[info 2018/10/10 21:46:42.228 EDT locator <pool-8-thread-1> tid=0x7e] GemFireCache[id = 988690806; isClosing = true; isShutDownAll = false; created = Wed Oct 10 21:36:13 EDT 2018; server = false; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2018/10/10 21:46:42.240 EDT locator <pool-8-thread-1> tid=0x7e] Created oplog#1 krf for disk store cluster_config.
+
+[info 2018/10/10 21:46:42.247 EDT locator <org.apache.geode.distributed.internal.InternalLocator$1@26fb628> tid=0x82] Stopping Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/10 21:46:42.422 EDT locator <Distribution Locator on 192.168.43.139> tid=0xf] locator shutting down
+
+[info 2018/10/10 21:46:42.423 EDT locator <Distribution Locator on 192.168.43.139> tid=0xf] Closing locator's cache
+
+[info 2018/10/10 21:46:42.424 EDT locator <org.apache.geode.distributed.internal.InternalLocator$1@26fb628> tid=0x82] Distribution Locator on 192.168.43.139[10000]  is stopped
+
+[info 2018/10/10 21:46:42.426 EDT locator <pool-8-thread-1> tid=0x7e] Shutting down DistributionManager 192.168.43.139(locator:77597:locator)<ec><v0>:1024. 
+
+[info 2018/10/10 21:46:42.453 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 2 requests for the next membership view
+
+[info 2018/10/10 21:46:42.454 EDT locator <Geode Membership View Creator> tid=0x24] View Creator thread interrupted
+
+[info 2018/10/10 21:46:43.536 EDT locator <pool-8-thread-1> tid=0x7e] Now closing distribution for 192.168.43.139(locator:77597:locator)<ec><v0>:1024
+
+[info 2018/10/10 21:46:43.537 EDT locator <pool-8-thread-1> tid=0x7e] Stopping membership services
+
+[info 2018/10/10 21:46:43.538 EDT locator <pool-8-thread-1> tid=0x7e] GMSHealthMonitor server socket is closed in stopServices().
+
+[info 2018/10/10 21:46:43.538 EDT locator <Geode Failure Detection Server thread 0> tid=0x20] GMSHealthMonitor server thread exiting
+
+[info 2018/10/10 21:46:43.538 EDT locator <pool-8-thread-1> tid=0x7e] GMSHealthMonitor serverSocketExecutor is terminated
+
+[warning 2018/10/10 21:46:43.541 EDT locator <TransferQueueBundler,gibson-37252> tid=0x1b] JGRP000034: 192.168.43.139<v0>:1024: failure sending message to /192.168.43.139: java.net.SocketException: Socket is closed
+
+[info 2018/10/10 21:46:43.542 EDT locator <pool-8-thread-1> tid=0x7e] DistributionManager stopped in 1,116ms.
+
+[info 2018/10/10 21:46:43.542 EDT locator <pool-8-thread-1> tid=0x7e] Marking DistributionManager 192.168.43.139(locator:77597:locator)<ec><v0>:1024 as closed.
+
+[info 2018/10/11 03:38:49.854 EDT locator <main> tid=0x1] Starting peer location for Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/11 03:38:49.865 EDT locator <main> tid=0x1] Starting Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/11 03:38:49.866 EDT locator <main> tid=0x1] Locator was created at Thu Oct 11 03:38:49 EDT 2018
+
+[info 2018/10/11 03:38:49.867 EDT locator <main> tid=0x1] Listening on port 10000 bound on address 0.0.0.0/0.0.0.0
+
+[info 2018/10/11 03:38:49.867 EDT locator <main> tid=0x1] GemFire peer location service starting.  Other locators:   Locators preferred as coordinators: true  Network partition detection enabled: true  View persistence file: locator10000view.dat
+
+[info 2018/10/11 03:38:49.868 EDT locator <main> tid=0x1] Peer locator recovering from /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/locator10000view.dat
+
+[info 2018/10/11 03:38:49.881 EDT locator <main> tid=0x1] Peer locator recovered membership is View[192.168.43.139(locator:77597:locator)<ec><v0>:1024|-1] members: [192.168.43.139(datanode1:77707)<v1>:1025{lead}, 192.168.43.139(datanode2:77750)<v2>:1026]
+
+[info 2018/10/11 03:38:49.882 EDT locator <main> tid=0x1] Starting distributed system
+
+[info 2018/10/11 03:38:49.907 EDT locator <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2018-01-27 01:04:22 +0000
+  Build-Id: root 12
+  Build-Java-Version: 1.8.0_161
+  Build-Platform: Linux 4.4.0-62-generic amd64
+  GemFire-Source-Date: 2018-01-12 16:54:53 +0000
+  GemFire-Source-Repository: support/9.3
+  GemFire-Source-Revision: 65ac182e9236ed9afb50dcf960212a5d6f3ef527
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.3.0
+  Source-Date: 2018-01-26 16:35:20 +0000
+  Source-Repository: support/9.3
+  Source-Revision: 47d3d26957f6378f711698868350dafb996d7e10
+  Native version: native code unavailable
+  Running on: 192.168.43.139/192.168.43.139, 8 cpu(s), x86_64 Mac OS X 10.13.6 
+  Communications version: 75
+  Process ID: 1355
+  User: rmay
+  Current dir: /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator
+  Home dir: /Users/rmay
+  Command Line Parameters:
+    -Dgemfire.enable-cluster-configuration=true
+    -Dgemfire.load-cluster-configuration-from-dir=false
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar
+    /usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/rmay/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      gemfire.enable-cluster-configuration = true
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.load-cluster-configuration-from-dir = false
+      gopherProxySet = false
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/rmay/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_102-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_102
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.102-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/l3/h29_mtm12c59z6v0jh09g5gm0000gn/T/jna-3504051/jna7896898469232581108.tmp
+      line.separator = 
+      os.version = 10.13.6
+      path.separator = :
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.LocatorLauncher start locator --port=10000
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.nio.ch.bugLevel = 
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/New_York
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.3.0/libexec/lib/geode-core-9.3.0.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2018/10/11 03:38:49.915 EDT locator <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  enable-cluster-configuration=true
+  load-cluster-configuration-from-dir=false
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=192.168.43.139[10000]
+  name=locator
+  ### GemFire Properties defined with launcher ###
+  log-file=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/locator.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  serializable-object-filter=!*
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-truststore-type=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  use-cluster-configuration=true
+  user-command-packages=
+  validate-serializable-objects=false
+  
+
+[info 2018/10/11 03:38:49.920 EDT locator <main> tid=0x1] initializing InternalDataSerializer with 3 services
+
+[info 2018/10/11 03:38:50.076 EDT locator <main> tid=0x1] Starting membership services
+
+[info 2018/10/11 03:38:50.161 EDT locator <main> tid=0x1] JGroups channel created (took 85ms)
+
+[info 2018/10/11 03:38:50.185 EDT locator <main> tid=0x1] GemFire P2P Listener started on /192.168.43.139:3487
+
+[info 2018/10/11 03:38:50.190 EDT locator <main> tid=0x1] This member is hosting a locator will be preferred as a membership coordinator
+
+[info 2018/10/11 03:38:50.191 EDT locator <Geode Failure Detection Server thread 0> tid=0x20] Started failure detection server thread on /192.168.43.139:59519.
+
+[info 2018/10/11 03:38:50.192 EDT locator <main> tid=0x1] Peer locator is connecting to local membership services with ID 192.168.43.139(locator:1355:locator)<ec>:1024
+
+[info 2018/10/11 03:38:50.207 EDT locator <main> tid=0x1] Attempting to join the distributed system through coordinator 192.168.43.139(datanode1:77707)<v1>:1025 using address 192.168.43.139(locator:1355:locator)<ec>:1024
+
+[info 2018/10/11 03:38:55.226 EDT locator <main> tid=0x1] Attempting to join the distributed system through coordinator 192.168.43.139(datanode2:77750)<v2>:1026 using address 192.168.43.139(locator:1355:locator)<ec>:1024
+
+[info 2018/10/11 03:39:03.230 EDT locator <main> tid=0x1] This member is becoming the membership coordinator with address 192.168.43.139(locator:1355:locator)<ec>:1024
+
+[info 2018/10/11 03:39:03.231 EDT locator <main> tid=0x1] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]
+  old view is: null
+
+[info 2018/10/11 03:39:03.231 EDT locator <main> tid=0x1] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]
+
+[info 2018/10/11 03:39:03.242 EDT locator <main> tid=0x1] ViewCreator starting on:192.168.43.139(locator:1355:locator)<ec><v0>:1024
+
+[info 2018/10/11 03:39:03.242 EDT locator <Geode Membership View Creator> tid=0x24] View Creator thread is starting
+
+[info 2018/10/11 03:39:03.243 EDT locator <main> tid=0x1] Finished joining (took 13051ms).
+
+[info 2018/10/11 03:39:03.243 EDT locator <Geode Membership View Creator> tid=0x24] no recipients for new view aside from myself
+
+[info 2018/10/11 03:39:03.243 EDT locator <main> tid=0x1] Starting DistributionManager 192.168.43.139(locator:1355:locator)<ec><v0>:1024.  (took 13300 ms)
+
+[info 2018/10/11 03:39:03.245 EDT locator <main> tid=0x1] Initial (distribution manager) view =  View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]
+
+[info 2018/10/11 03:39:03.245 EDT locator <main> tid=0x1] Admitting member <192.168.43.139(locator:1355:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2018/10/11 03:39:03.245 EDT locator <main> tid=0x1] 192.168.43.139(locator:1355:locator)<ec><v0>:1024 is the elder and the only member.
+
+[info 2018/10/11 03:39:03.247 EDT locator <main> tid=0x1] Did not hear back from any other system. I am the first one.
+
+[info 2018/10/11 03:39:03.259 EDT locator <main> tid=0x1] Creating cache for locator.
+
+[info 2018/10/11 03:39:03.397 EDT locator <main> tid=0x1] Requesting cluster configuration
+
+[info 2018/10/11 03:39:03.466 EDT locator <main> tid=0x1] Initializing region _monitoringRegion_192.168.43.139<v0>1024
+
+[info 2018/10/11 03:39:03.468 EDT locator <main> tid=0x1] Initialization of region _monitoringRegion_192.168.43.139<v0>1024 completed
+
+[info 2018/10/11 03:39:03.802 EDT locator <main> tid=0x1] Initialized cache service org.apache.geode.connectors.jdbc.internal.JdbcConnectorServiceImpl
+
+[info 2018/10/11 03:39:03.820 EDT locator <main> tid=0x1] Initialized cache service org.apache.geode.cache.lucene.internal.LuceneServiceImpl
+
+[info 2018/10/11 03:39:03.821 EDT locator <main> tid=0x1] Initialized cache service com.gemstone.gemfire.OldClientSupportProvider
+
+[info 2018/10/11 03:39:03.821 EDT locator <main> tid=0x1] Loading previously deployed jars
+
+[info 2018/10/11 03:39:03.839 EDT locator <main> tid=0x1] SharedConfigStatusRequestHandler installed
+
+[info 2018/10/11 03:39:03.922 EDT locator <main> tid=0x1] Recovered disk store cluster_config with unique id f45ac453c95646a2-8c0d560a2b142033
+
+[info 2018/10/11 03:39:03.927 EDT locator <main> tid=0x1] Recovering oplog#1 /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/ConfigDiskDir_locator/BACKUPcluster_config_1.drf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.931 EDT locator <main> tid=0x1] Recovering oplog#1 /Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/ConfigDiskDir_locator/BACKUPcluster_config_1.krf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.941 EDT locator <main> tid=0x1] recovery oplog load took 14 ms
+
+[info 2018/10/11 03:39:03.943 EDT locator <main> tid=0x1] Created oplog#2 drf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.946 EDT locator <main> tid=0x1] Created oplog#2 crf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.947 EDT locator <main> tid=0x1] recovery region initialization took 6 ms
+
+[info 2018/10/11 03:39:03.952 EDT locator <OplogCompactor cluster_config for oplog oplog#1> tid=0x42] OplogCompactor for cluster_config compaction oplog id(s): oplog#1
+
+[info 2018/10/11 03:39:03.953 EDT locator <main> tid=0x1] Initializing region _ConfigurationRegion
+
+[info 2018/10/11 03:39:03.954 EDT locator <main> tid=0x1] Region /_ConfigurationRegion recovered from the local disk. Old persistent ID: /192.168.43.139:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/ConfigDiskDir_locator created at timestamp 1539221773688 version 0 diskStoreId f45ac453c95646a2-8c0d560a2b142033 name locator, new persistent ID /192.168.43.139:/Users/rmay/Documents/projects/ihg-ops-workshop/gempuzzles/05/locator/ConfigDiskDir_locator created at timestamp 1539243543951 version 0 diskStoreId f45ac453c95646a2-8c0d560a2b142033 name locator
+
+[info 2018/10/11 03:39:03.956 EDT locator <Oplog Delete Task> tid=0x43] Deleted oplog#1 crf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.956 EDT locator <OplogCompactor cluster_config for oplog oplog#1> tid=0x42] compaction did 1 creates and updates in 3 ms
+
+[info 2018/10/11 03:39:03.957 EDT locator <Oplog Delete Task> tid=0x43] Deleted oplog#1 krf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.957 EDT locator <Oplog Delete Task> tid=0x43] Deleted oplog#1 drf for disk store cluster_config.
+
+[info 2018/10/11 03:39:03.960 EDT locator <main> tid=0x1] Initialization of region _ConfigurationRegion completed
+
+[info 2018/10/11 03:39:03.975 EDT locator <main> tid=0x1] Cluster configuration service start up completed successfully and is now running ....
+
+[info 2018/10/11 03:39:03.975 EDT locator <main> tid=0x1] Locator started on  192.168.43.139[10000]
+
+[info 2018/10/11 03:39:03.975 EDT locator <main> tid=0x1] Starting server location for Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/11 03:39:05.380 EDT locator <locator request thread[1]> tid=0x23] GEODE_HOME:/usr/local/Cellar/gemfire/9.3.0/libexec
+
+[info 2018/10/11 03:39:05.381 EDT locator <locator request thread[1]> tid=0x23] geode-web war found: /usr/local/Cellar/gemfire/9.3.0/libexec/tools/Extensions/geode-web-9.3.0.war
+
+[info 2018/10/11 03:39:05.381 EDT locator <locator request thread[1]> tid=0x23] GEODE_HOME:/usr/local/Cellar/gemfire/9.3.0/libexec
+
+[info 2018/10/11 03:39:05.382 EDT locator <locator request thread[1]> tid=0x23] geode-pulse war found: /usr/local/Cellar/gemfire/9.3.0/libexec/tools/Pulse/geode-pulse-9.3.0.war
+
+[info 2018/10/11 03:39:05.382 EDT locator <locator request thread[1]> tid=0x23] GEODE_HOME:/usr/local/Cellar/gemfire/9.3.0/libexec
+
+[info 2018/10/11 03:39:05.382 EDT locator <locator request thread[1]> tid=0x23] geode-web-api war found: /usr/local/Cellar/gemfire/9.3.0/libexec/tools/Extensions/geode-web-api-9.3.0.war
+
+[info 2018/10/11 03:39:06.003 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization started
+
+[info 2018/10/11 03:39:06.043 EDT locator <locator request thread[1]> tid=0x23] Refreshing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 03:39:06.069 EDT locator <locator request thread[1]> tid=0x23] Loading XML bean definitions from ServletContext resource [/WEB-INF/geode-mgmt-servlet.xml]
+
+[info 2018/10/11 03:39:06.450 EDT locator <locator request thread[1]> tid=0x23] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2018/10/11 03:39:06.599 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/operation],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[]) throws javax.management.MalformedObjectNameException,javax.management.MBeanException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException
+
+[info 2018/10/11 03:39:06.600 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2018/10/11 03:39:06.600 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/management/commands],methods=[GET || POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.InputStreamResource> org.apache.geode.management.internal.web.controllers.ShellCommandsController.command(java.lang.String,org.springframework.web.multipart.MultipartFile[]) throws java.io.IOException
+
+[info 2018/10/11 03:39:06.601 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/attribute],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String) throws javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,javax.management.InstanceNotFoundException,java.io.IOException,javax.management.MalformedObjectNameException
+
+[info 2018/10/11 03:39:06.601 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/query],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.queryNames(org.apache.geode.management.internal.web.domain.QueryParameterSource) throws java.io.IOException
+
+[info 2018/10/11 03:39:06.601 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/ping],methods=[GET || HEAD]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.apache.geode.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2018/10/11 03:39:06.602 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version/full],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.fullVersion()
+
+[info 2018/10/11 03:39:06.652 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 03:39:06.688 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 03:39:06.763 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization completed in 760 ms
+
+[info 2018/10/11 03:39:06.928 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization started
+
+[info 2018/10/11 03:39:06.939 EDT locator <locator request thread[1]> tid=0x23] Refreshing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 03:39:06.961 EDT locator <locator request thread[1]> tid=0x23] Loading XML bean definitions from ServletContext resource [/WEB-INF/geode-mgmt-servlet.xml]
+
+[info 2018/10/11 03:39:07.129 EDT locator <locator request thread[1]> tid=0x23] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2018/10/11 03:39:07.187 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/operation],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[]) throws javax.management.MalformedObjectNameException,javax.management.MBeanException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException
+
+[info 2018/10/11 03:39:07.187 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2018/10/11 03:39:07.188 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/management/commands],methods=[GET || POST]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.InputStreamResource> org.apache.geode.management.internal.web.controllers.ShellCommandsController.command(java.lang.String,org.springframework.web.multipart.MultipartFile[]) throws java.io.IOException
+
+[info 2018/10/11 03:39:07.188 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/attribute],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String) throws javax.management.AttributeNotFoundException,javax.management.MBeanException,javax.management.ReflectionException,javax.management.InstanceNotFoundException,java.io.IOException,javax.management.MalformedObjectNameException
+
+[info 2018/10/11 03:39:07.189 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/mbean/query],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.queryNames(org.apache.geode.management.internal.web.domain.QueryParameterSource) throws java.io.IOException
+
+[info 2018/10/11 03:39:07.189 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/ping],methods=[GET || HEAD]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.apache.geode.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2018/10/11 03:39:07.189 EDT locator <locator request thread[1]> tid=0x23] Mapped "{[/v1/version/full],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.fullVersion()
+
+[info 2018/10/11 03:39:07.231 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 03:39:07.262 EDT locator <locator request thread[1]> tid=0x23] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 03:39:07.338 EDT locator <locator request thread[1]> tid=0x23] FrameworkServlet 'geode-mgmt': initialization completed in 410 ms
+
+[info 2018/10/11 03:39:12.231 EDT locator <locator request thread[1]> tid=0x23] Registered AccessControlMBean on GemFire:service=AccessControl,type=Distributed
+
+[info 2018/10/11 03:39:12.234 EDT locator <locator request thread[1]> tid=0x23] Registered FileUploaderMBean on GemFire:service=FileUploader,type=Distributed
+
+[info 2018/10/11 03:40:28.554 EDT locator <locator request thread[1]> tid=0x23] This member is becoming coordinator
+
+[info 2018/10/11 03:40:28.565 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode1:1463):1025
+
+[info 2018/10/11 03:40:28.874 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 03:40:28.875 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}]
+
+[info 2018/10/11 03:40:28.884 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 03:40:28.884 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|0] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]
+
+[info 2018/10/11 03:40:28.884 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}]
+
+[info 2018/10/11 03:40:28.886 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}]
+
+[info 2018/10/11 03:40:28.886 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode1:1463)<v1>:1025 >
+
+[info 2018/10/11 03:40:28.886 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode1:1463)<v1>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/11 03:40:28.888 EDT locator <pool-3-thread-1> tid=0x58] Initializing region _monitoringRegion_192.168.43.139<v1>1025
+
+[info 2018/10/11 03:40:28.910 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member 192.168.43.139(datanode1:1463)<v1>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 03:40:28.931 EDT locator <pool-3-thread-1> tid=0x58] Initialization of region _monitoringRegion_192.168.43.139<v1>1025 completed
+
+[info 2018/10/11 03:40:28.933 EDT locator <pool-3-thread-1> tid=0x58] Initializing region _notificationRegion_192.168.43.139<v1>1025
+
+[info 2018/10/11 03:40:28.934 EDT locator <pool-3-thread-1> tid=0x58] Initialization of region _notificationRegion_192.168.43.139<v1>1025 completed
+
+[info 2018/10/11 03:40:28.955 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 03:40:28.956 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 03:40:43.052 EDT locator <locator request thread[1]> tid=0x23] This member is becoming coordinator
+
+[info 2018/10/11 03:40:43.062 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode2:1497):1026
+
+[info 2018/10/11 03:40:43.374 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 03:40:43.374 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:40:43.384 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 03:40:43.384 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}, 192.168.43.139(datanode2:1497)<v2>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|1] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}]
+
+[info 2018/10/11 03:40:43.384 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:40:43.385 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:40:43.385 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode2:1497)<v2>:1026 >
+
+[info 2018/10/11 03:40:43.385 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode2:1497)<v2>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/11 03:40:43.386 EDT locator <pool-3-thread-2> tid=0x62] Initializing region _monitoringRegion_192.168.43.139<v2>1026
+
+[info 2018/10/11 03:40:43.409 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member 192.168.43.139(datanode2:1497)<v2>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 03:40:43.428 EDT locator <pool-3-thread-2> tid=0x62] Initialization of region _monitoringRegion_192.168.43.139<v2>1026 completed
+
+[info 2018/10/11 03:40:43.428 EDT locator <pool-3-thread-2> tid=0x62] Initializing region _notificationRegion_192.168.43.139<v2>1026
+
+[info 2018/10/11 03:40:43.430 EDT locator <pool-3-thread-2> tid=0x62] Initialization of region _notificationRegion_192.168.43.139<v2>1026 completed
+
+[info 2018/10/11 03:40:43.457 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 03:40:43.458 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 03:51:46.249 EDT locator <RMI TCP Connection(2)-192.168.43.139> tid=0x68] Gfsh executing shutdown on members [192.168.43.139(datanode1:1463)<v1>:1025, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:51:46.282 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] received leave request from 192.168.43.139(datanode2:1497)<v2>:1026 for 192.168.43.139(datanode2:1497)<v2>:1026
+
+[info 2018/10/11 03:51:46.282 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] received leave request from 192.168.43.139(datanode1:1463)<v1>:1025 for 192.168.43.139(datanode1:1463)<v1>:1025
+
+[info 2018/10/11 03:51:46.282 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member at 192.168.43.139(datanode2:1497)<v2>:1026 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 03:51:46.282 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member at 192.168.43.139(datanode1:1463)<v1>:1025 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 03:51:46.592 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 2 requests for the next membership view
+
+[info 2018/10/11 03:51:46.593 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|3] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:1463)<v1>:1025, 192.168.43.139(datanode2:1497)<v2>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|2] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1463)<v1>:1025{lead}, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:51:46.593 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|3] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:1463)<v1>:1025, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:51:46.595 EDT locator <Geode Membership View Creator> tid=0x24] no recipients for new view aside from myself
+
+[info 2018/10/11 03:51:47.386 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v2>:1026 for 192.168.43.139(datanode2:1497)<v2>:1026
+
+[info 2018/10/11 03:51:47.386 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v1>:1025 for 192.168.43.139(datanode1:1463)<v1>:1025
+
+[info 2018/10/11 03:53:14.764 EDT locator <locator request thread[2]> tid=0x6b] This member is becoming coordinator
+
+[info 2018/10/11 03:53:14.772 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode2:1768):1025
+
+[info 2018/10/11 03:53:15.083 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 03:53:15.084 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}]
+
+[info 2018/10/11 03:53:15.091 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 03:53:15.091 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|3] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:1463)<v1>:1025, 192.168.43.139(datanode2:1497)<v2>:1026]
+
+[info 2018/10/11 03:53:15.091 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}]
+
+[info 2018/10/11 03:53:15.092 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}]
+
+[info 2018/10/11 03:53:15.092 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode2:1768)<v4>:1025 >
+
+[info 2018/10/11 03:53:15.093 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode2:1768)<v4>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/11 03:53:15.093 EDT locator <pool-3-thread-5> tid=0x7e] Initializing region _monitoringRegion_192.168.43.139<v4>1025
+
+[info 2018/10/11 03:53:15.107 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member 192.168.43.139(datanode2:1768)<v4>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 03:53:15.124 EDT locator <pool-3-thread-5> tid=0x7e] Initialization of region _monitoringRegion_192.168.43.139<v4>1025 completed
+
+[info 2018/10/11 03:53:15.125 EDT locator <pool-3-thread-5> tid=0x7e] Initializing region _notificationRegion_192.168.43.139<v4>1025
+
+[info 2018/10/11 03:53:15.126 EDT locator <pool-3-thread-5> tid=0x7e] Initialization of region _notificationRegion_192.168.43.139<v4>1025 completed
+
+[info 2018/10/11 03:53:15.158 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 03:53:15.159 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 03:54:05.842 EDT locator <locator request thread[2]> tid=0x6b] This member is becoming coordinator
+
+[info 2018/10/11 03:54:05.849 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode1:1802):1026
+
+[info 2018/10/11 03:54:06.164 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 03:54:06.164 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|5] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 03:54:06.175 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 03:54:06.175 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|5] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}, 192.168.43.139(datanode1:1802)<v5>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|4] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}]
+
+[info 2018/10/11 03:54:06.175 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|5] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 03:54:06.176 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|5] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 03:54:06.176 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode1:1802)<v5>:1026 >
+
+[info 2018/10/11 03:54:06.176 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode1:1802)<v5>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/11 03:54:06.177 EDT locator <pool-3-thread-6> tid=0x82] Initializing region _monitoringRegion_192.168.43.139<v5>1026
+
+[info 2018/10/11 03:54:06.199 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member 192.168.43.139(datanode1:1802)<v5>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 03:54:06.211 EDT locator <pool-3-thread-6> tid=0x82] Initialization of region _monitoringRegion_192.168.43.139<v5>1026 completed
+
+[info 2018/10/11 03:54:06.211 EDT locator <pool-3-thread-6> tid=0x82] Initializing region _notificationRegion_192.168.43.139<v5>1026
+
+[info 2018/10/11 03:54:06.212 EDT locator <pool-3-thread-6> tid=0x82] Initialization of region _notificationRegion_192.168.43.139<v5>1026 completed
+
+[info 2018/10/11 03:54:06.245 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 03:54:06.245 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 03:57:59.269 EDT locator <RMI TCP Connection(4)-192.168.43.139> tid=0x8e] Gfsh executing shutdown on members [192.168.43.139(datanode2:1768)<v4>:1025, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 03:57:59.309 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] received leave request from 192.168.43.139(datanode1:1802)<v5>:1026 for 192.168.43.139(datanode1:1802)<v5>:1026
+
+[info 2018/10/11 03:57:59.310 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member at 192.168.43.139(datanode1:1802)<v5>:1026 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 03:57:59.312 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] received leave request from 192.168.43.139(datanode2:1768)<v4>:1025 for 192.168.43.139(datanode2:1768)<v4>:1025
+
+[info 2018/10/11 03:57:59.313 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member at 192.168.43.139(datanode2:1768)<v4>:1025 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 03:57:59.619 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 2 requests for the next membership view
+
+[info 2018/10/11 03:57:59.620 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|6] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode2:1768)<v4>:1025, 192.168.43.139(datanode1:1802)<v5>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|5] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode2:1768)<v4>:1025{lead}, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 03:57:59.620 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|6] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode2:1768)<v4>:1025, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 03:57:59.621 EDT locator <Geode Membership View Creator> tid=0x24] no recipients for new view aside from myself
+
+[info 2018/10/11 03:58:00.418 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v4>:1025 for 192.168.43.139(datanode2:1768)<v4>:1025
+
+[info 2018/10/11 03:58:00.418 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v5>:1026 for 192.168.43.139(datanode1:1802)<v5>:1026
+
+[info 2018/10/11 04:00:13.653 EDT locator <locator request thread[15]> tid=0x8a] This member is becoming coordinator
+
+[info 2018/10/11 04:00:13.661 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode1:1911):1025
+
+[info 2018/10/11 04:00:13.974 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 04:00:13.974 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|7] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}]
+
+[info 2018/10/11 04:00:13.984 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 04:00:13.985 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|7] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|6] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode2:1768)<v4>:1025, 192.168.43.139(datanode1:1802)<v5>:1026]
+
+[info 2018/10/11 04:00:13.985 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|7] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}]
+
+[info 2018/10/11 04:00:13.986 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|7] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}]
+
+[info 2018/10/11 04:00:13.986 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode1:1911)<v7>:1025 >
+
+[info 2018/10/11 04:00:13.986 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode1:1911)<v7>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/11 04:00:13.987 EDT locator <pool-3-thread-1> tid=0x58] Initializing region _monitoringRegion_192.168.43.139<v7>1025
+
+[info 2018/10/11 04:00:14.003 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member 192.168.43.139(datanode1:1911)<v7>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 04:00:14.020 EDT locator <pool-3-thread-1> tid=0x58] Initialization of region _monitoringRegion_192.168.43.139<v7>1025 completed
+
+[info 2018/10/11 04:00:14.020 EDT locator <pool-3-thread-1> tid=0x58] Initializing region _notificationRegion_192.168.43.139<v7>1025
+
+[info 2018/10/11 04:00:14.021 EDT locator <pool-3-thread-1> tid=0x58] Initialization of region _notificationRegion_192.168.43.139<v7>1025 completed
+
+[info 2018/10/11 04:00:14.045 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 04:00:14.045 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 04:00:27.938 EDT locator <locator request thread[15]> tid=0x8a] This member is becoming coordinator
+
+[info 2018/10/11 04:00:27.947 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode2:1945):1026
+
+[info 2018/10/11 04:00:28.254 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 04:00:28.255 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|8] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:00:28.263 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 04:00:28.263 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|8] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}, 192.168.43.139(datanode2:1945)<v8>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|7] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}]
+
+[info 2018/10/11 04:00:28.264 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|8] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:00:28.264 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|8] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:00:28.264 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode2:1945)<v8>:1026 >
+
+[info 2018/10/11 04:00:28.265 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode2:1945)<v8>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/11 04:00:28.265 EDT locator <pool-3-thread-2> tid=0x62] Initializing region _monitoringRegion_192.168.43.139<v8>1026
+
+[info 2018/10/11 04:00:28.287 EDT locator <Pooled High Priority Message Processor 2> tid=0x65] Member 192.168.43.139(datanode2:1945)<v8>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 04:00:28.300 EDT locator <pool-3-thread-2> tid=0x62] Initialization of region _monitoringRegion_192.168.43.139<v8>1026 completed
+
+[info 2018/10/11 04:00:28.300 EDT locator <pool-3-thread-2> tid=0x62] Initializing region _notificationRegion_192.168.43.139<v8>1026
+
+[info 2018/10/11 04:00:28.301 EDT locator <pool-3-thread-2> tid=0x62] Initialization of region _notificationRegion_192.168.43.139<v8>1026 completed
+
+[info 2018/10/11 04:00:28.332 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 04:00:28.332 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 04:02:18.162 EDT locator <RMI TCP Connection(5)-192.168.43.139> tid=0xa6] Gfsh executing shutdown on members [192.168.43.139(datanode1:1911)<v7>:1025, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:02:18.208 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] received leave request from 192.168.43.139(datanode2:1945)<v8>:1026 for 192.168.43.139(datanode2:1945)<v8>:1026
+
+[info 2018/10/11 04:02:18.208 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member at 192.168.43.139(datanode2:1945)<v8>:1026 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 04:02:18.211 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] received leave request from 192.168.43.139(datanode1:1911)<v7>:1025 for 192.168.43.139(datanode1:1911)<v7>:1025
+
+[info 2018/10/11 04:02:18.212 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member at 192.168.43.139(datanode1:1911)<v7>:1025 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 04:02:18.517 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 2 requests for the next membership view
+
+[info 2018/10/11 04:02:18.518 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|9] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:1911)<v7>:1025, 192.168.43.139(datanode2:1945)<v8>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|8] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:1911)<v7>:1025{lead}, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:02:18.518 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|9] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:1911)<v7>:1025, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:02:18.521 EDT locator <Geode Membership View Creator> tid=0x24] no recipients for new view aside from myself
+
+[info 2018/10/11 04:02:19.316 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v8>:1026 for 192.168.43.139(datanode2:1945)<v8>:1026
+
+[info 2018/10/11 04:02:19.322 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v7>:1025 for 192.168.43.139(datanode1:1911)<v7>:1025
+
+[info 2018/10/11 04:04:08.677 EDT locator <locator request thread[27]> tid=0xa5] This member is becoming coordinator
+
+[info 2018/10/11 04:04:08.710 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode1:2064):1025
+
+[info 2018/10/11 04:04:09.021 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 04:04:09.022 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|10] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}]
+
+[info 2018/10/11 04:04:09.046 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 04:04:09.047 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|10] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|9] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:1911)<v7>:1025, 192.168.43.139(datanode2:1945)<v8>:1026]
+
+[info 2018/10/11 04:04:09.047 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|10] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}]
+
+[info 2018/10/11 04:04:09.050 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|10] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}]
+
+[info 2018/10/11 04:04:09.050 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode1:2064)<v10>:1025 >
+
+[info 2018/10/11 04:04:09.051 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode1:2064)<v10>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/11 04:04:09.053 EDT locator <pool-3-thread-5> tid=0x7e] Initializing region _monitoringRegion_192.168.43.139<v10>1025
+
+[info 2018/10/11 04:04:09.135 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member 192.168.43.139(datanode1:2064)<v10>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 04:04:09.215 EDT locator <pool-3-thread-5> tid=0x7e] Initialization of region _monitoringRegion_192.168.43.139<v10>1025 completed
+
+[info 2018/10/11 04:04:09.217 EDT locator <pool-3-thread-5> tid=0x7e] Initializing region _notificationRegion_192.168.43.139<v10>1025
+
+[info 2018/10/11 04:04:09.221 EDT locator <pool-3-thread-5> tid=0x7e] Initialization of region _notificationRegion_192.168.43.139<v10>1025 completed
+
+[info 2018/10/11 04:04:09.335 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 04:04:09.336 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 04:04:30.860 EDT locator <locator request thread[27]> tid=0xa5] This member is becoming coordinator
+
+[info 2018/10/11 04:04:30.895 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode2:2111):1026
+
+[info 2018/10/11 04:04:31.201 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 04:04:31.202 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|11] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:04:31.228 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 04:04:31.229 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|11] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}, 192.168.43.139(datanode2:2111)<v11>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|10] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}]
+
+[info 2018/10/11 04:04:31.229 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|11] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:04:31.232 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|11] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:04:31.233 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode2:2111)<v11>:1026 >
+
+[info 2018/10/11 04:04:31.234 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode2:2111)<v11>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/11 04:04:31.237 EDT locator <pool-3-thread-6> tid=0x82] Initializing region _monitoringRegion_192.168.43.139<v11>1026
+
+[info 2018/10/11 04:04:31.356 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member 192.168.43.139(datanode2:2111)<v11>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 04:04:31.427 EDT locator <pool-3-thread-6> tid=0x82] Initialization of region _monitoringRegion_192.168.43.139<v11>1026 completed
+
+[info 2018/10/11 04:04:31.429 EDT locator <pool-3-thread-6> tid=0x82] Initializing region _notificationRegion_192.168.43.139<v11>1026
+
+[info 2018/10/11 04:04:31.432 EDT locator <pool-3-thread-6> tid=0x82] Initialization of region _notificationRegion_192.168.43.139<v11>1026 completed
+
+[info 2018/10/11 04:04:31.594 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 04:04:31.606 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 04:08:05.878 EDT locator <RMI TCP Connection(6)-192.168.43.139> tid=0xbb] Gfsh executing shutdown on members [192.168.43.139(datanode1:2064)<v10>:1025, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:08:06.082 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] received leave request from 192.168.43.139(datanode2:2111)<v11>:1026 for 192.168.43.139(datanode2:2111)<v11>:1026
+
+[info 2018/10/11 04:08:06.083 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member at 192.168.43.139(datanode2:2111)<v11>:1026 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 04:08:06.100 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] received leave request from 192.168.43.139(datanode1:2064)<v10>:1025 for 192.168.43.139(datanode1:2064)<v10>:1025
+
+[info 2018/10/11 04:08:06.101 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member at 192.168.43.139(datanode1:2064)<v10>:1025 gracefully left the distributed cache: shutdown message received
+
+[info 2018/10/11 04:08:06.409 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 2 requests for the next membership view
+
+[info 2018/10/11 04:08:06.410 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|12] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:2064)<v10>:1025, 192.168.43.139(datanode2:2111)<v11>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|11] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2064)<v10>:1025{lead}, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:08:06.411 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|12] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:2064)<v10>:1025, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:08:06.413 EDT locator <Geode Membership View Creator> tid=0x24] no recipients for new view aside from myself
+
+[info 2018/10/11 04:08:07.193 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v11>:1026 for 192.168.43.139(datanode2:2111)<v11>:1026
+
+[info 2018/10/11 04:08:07.208 EDT locator <unicast receiver,gibson-14692> tid=0x1c] received leave request from 192.168.43.139<v10>:1025 for 192.168.43.139(datanode1:2064)<v10>:1025
+
+[info 2018/10/11 04:20:25.746 EDT locator <locator request thread[32]> tid=0xb8] This member is becoming coordinator
+
+[info 2018/10/11 04:20:25.778 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode1:2413):1025
+
+[info 2018/10/11 04:20:26.084 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 04:20:26.085 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|13] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}]
+
+[info 2018/10/11 04:20:26.117 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 04:20:26.117 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|13] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|12] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024]  shutdown: [192.168.43.139(datanode1:2064)<v10>:1025, 192.168.43.139(datanode2:2111)<v11>:1026]
+
+[info 2018/10/11 04:20:26.118 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|13] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}]
+
+[info 2018/10/11 04:20:26.120 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|13] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}]
+
+[info 2018/10/11 04:20:26.121 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode1:2413)<v13>:1025 >
+
+[info 2018/10/11 04:20:26.121 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode1:2413)<v13>:1025>. Now there are 2 non-admin member(s).
+
+[info 2018/10/11 04:20:26.123 EDT locator <pool-3-thread-1> tid=0x58] Initializing region _monitoringRegion_192.168.43.139<v13>1025
+
+[info 2018/10/11 04:20:26.209 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member 192.168.43.139(datanode1:2413)<v13>:1025 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 04:20:26.304 EDT locator <pool-3-thread-1> tid=0x58] Initialization of region _monitoringRegion_192.168.43.139<v13>1025 completed
+
+[info 2018/10/11 04:20:26.307 EDT locator <pool-3-thread-1> tid=0x58] Initializing region _notificationRegion_192.168.43.139<v13>1025
+
+[info 2018/10/11 04:20:26.312 EDT locator <pool-3-thread-1> tid=0x58] Initialization of region _notificationRegion_192.168.43.139<v13>1025 completed
+
+[info 2018/10/11 04:20:26.444 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 04:20:26.446 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 04:21:22.073 EDT locator <locator request thread[32]> tid=0xb8] This member is becoming coordinator
+
+[info 2018/10/11 04:21:22.105 EDT locator <unicast receiver,gibson-14692> tid=0x1c] Received a join request from 192.168.43.139(datanode2:2460):1026
+
+[info 2018/10/11 04:21:22.413 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 1 requests for the next membership view
+
+[info 2018/10/11 04:21:22.414 EDT locator <Geode Membership View Creator> tid=0x24] preparing new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|14] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}, 192.168.43.139(datanode2:2460)<v14>:1026]
+
+[info 2018/10/11 04:21:22.446 EDT locator <Geode Membership View Creator> tid=0x24] finished waiting for responses to view preparation
+
+[info 2018/10/11 04:21:22.446 EDT locator <Geode Membership View Creator> tid=0x24] received new view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|14] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}, 192.168.43.139(datanode2:2460)<v14>:1026]
+  old view is: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|13] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}]
+
+[info 2018/10/11 04:21:22.447 EDT locator <Geode Membership View Creator> tid=0x24] Peer locator received new membership view: View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|14] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}, 192.168.43.139(datanode2:2460)<v14>:1026]
+
+[info 2018/10/11 04:21:22.449 EDT locator <Geode Membership View Creator> tid=0x24] sending new view View[192.168.43.139(locator:1355:locator)<ec><v0>:1024|14] members: [192.168.43.139(locator:1355:locator)<ec><v0>:1024, 192.168.43.139(datanode1:2413)<v13>:1025{lead}, 192.168.43.139(datanode2:2460)<v14>:1026]
+
+[info 2018/10/11 04:21:22.449 EDT locator <View Message Processor> tid=0x57] Membership: Processing addition < 192.168.43.139(datanode2:2460)<v14>:1026 >
+
+[info 2018/10/11 04:21:22.450 EDT locator <View Message Processor> tid=0x57] Admitting member <192.168.43.139(datanode2:2460)<v14>:1026>. Now there are 3 non-admin member(s).
+
+[info 2018/10/11 04:21:22.452 EDT locator <pool-3-thread-2> tid=0x62] Initializing region _monitoringRegion_192.168.43.139<v14>1026
+
+[info 2018/10/11 04:21:22.581 EDT locator <Pooled High Priority Message Processor 1> tid=0x5c] Member 192.168.43.139(datanode2:2460)<v14>:1026 is equivalent or in the same redundancy zone.
+
+[info 2018/10/11 04:21:22.647 EDT locator <pool-3-thread-2> tid=0x62] Initialization of region _monitoringRegion_192.168.43.139<v14>1026 completed
+
+[info 2018/10/11 04:21:22.648 EDT locator <pool-3-thread-2> tid=0x62] Initializing region _notificationRegion_192.168.43.139<v14>1026
+
+[info 2018/10/11 04:21:22.651 EDT locator <pool-3-thread-2> tid=0x62] Initialization of region _notificationRegion_192.168.43.139<v14>1026 completed
+
+[info 2018/10/11 04:21:22.807 EDT locator <Function Execution Processor1> tid=0x5d] Received request for configuration  : []
+
+[info 2018/10/11 04:21:22.809 EDT locator <Function Execution Processor1> tid=0x5d] Building up configuration response with following configurations: [cluster]
+
+[info 2018/10/11 04:26:32.576 EDT locator <P2P message reader for 192.168.43.139(datanode1:2413)<v13>:1025 shared unordered uid=1 port=49926> tid=0xc3] Performing final check for suspect member 192.168.43.139(datanode1:2413)<v13>:1025 reason=member unexpectedly shut down shared, unordered connection
+
+[info 2018/10/11 04:26:32.576 EDT locator <P2P message reader for 192.168.43.139(datanode2:2460)<v14>:1026 shared unordered uid=1 port=49931> tid=0xc7] Performing final check for suspect member 192.168.43.139(datanode2:2460)<v14>:1026 reason=member unexpectedly shut down shared, unordered connection
+
+[info 2018/10/11 04:26:32.579 EDT locator <P2P message reader for 192.168.43.139(datanode2:2460)<v14>:1026 shared unordered uid=1 port=49931> tid=0xc7] Final check failed - requesting removal of suspect member 192.168.43.139(datanode2:2460)<v14>:1026
+
+[info 2018/10/11 04:26:32.579 EDT locator <P2P message reader for 192.168.43.139(datanode1:2413)<v13>:1025 shared unordered uid=1 port=49926> tid=0xc3] Final check failed - requesting removal of suspect member 192.168.43.139(datanode1:2413)<v13>:1025
+
+[info 2018/10/11 04:26:32.580 EDT locator <Geode Membership View Creator> tid=0x24] View Creator is processing 2 requests for the next membership view
+
+[info 2018/10/11 04:26:32.580 EDT locator <Geode Membership View Creator> tid=0x24]   192.168.43.139(datanode1:2413)<v13>:1025 had a weight of 15
+
+[info 2018/10/11 04:26:32.580 EDT locator <Geode Membership View Creator> tid=0x24]   192.168.43.139(datanode2:2460)<v14>:1026 had a weight of 10
+
+[warning 2018/10/11 04:26:32.580 EDT locator <Geode Membership View Creator> tid=0x24] total weight lost in this view change is 25 of 28.  Quorum has been lost!
+
+[severe 2018/10/11 04:26:32.585 EDT locator <Geode Membership View Creator> tid=0x24] Possible loss of quorum due to the loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+
+[severe 2018/10/11 04:26:33.590 EDT locator <Geode Membership View Creator> tid=0x24] Membership service failure: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+org.apache.geode.ForcedDisconnectException: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+	at org.apache.geode.distributed.internal.membership.gms.mgr.GMSMembershipManager.forceDisconnect(GMSMembershipManager.java:2568)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave.forceDisconnect(GMSJoinLeave.java:1055)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave.access$1500(GMSJoinLeave.java:90)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave$ViewCreator.prepareAndSendView(GMSJoinLeave.java:2500)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave$ViewCreator.createAndSendView(GMSJoinLeave.java:2476)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave$ViewCreator.run(GMSJoinLeave.java:2260)
+
+[info 2018/10/11 04:26:33.592 EDT locator <DisconnectThread> tid=0xe8] Stopping Distribution Locator on 192.168.43.139[10000]
+
+[info 2018/10/11 04:26:33.730 EDT locator <Distribution Locator on 192.168.43.139> tid=0xf] locator shutting down
+
+[info 2018/10/11 04:26:33.733 EDT locator <main> tid=0x1] waiting for distributed system to disconnect...
+
+[info 2018/10/11 04:26:33.733 EDT locator <DisconnectThread> tid=0xe8] Distribution Locator on 192.168.43.139[10000]  is stopped
+
+[info 2018/10/11 04:26:33.735 EDT locator <Location services restart thread> tid=0xe9] attempting to restart locator
+
+[info 2018/10/11 04:26:33.737 EDT locator <DisconnectThread> tid=0xe8] Stopping membership services
+
+[info 2018/10/11 04:26:33.738 EDT locator <DisconnectThread> tid=0xe8] GMSHealthMonitor server socket is closed in stopServices().
+
+[info 2018/10/11 04:26:33.738 EDT locator <Geode Failure Detection Server thread 0> tid=0x20] GMSHealthMonitor server thread exiting
+
+[info 2018/10/11 04:26:33.738 EDT locator <DisconnectThread> tid=0xe8] GMSHealthMonitor serverSocketExecutor is terminated
+
+[info 2018/10/11 04:26:33.741 EDT locator <ReconnectThread> tid=0xe8] Disconnecting old DistributedSystem to prepare for a reconnect attempt
+
+[warning 2018/10/11 04:26:33.744 EDT locator <ReconnectThread> tid=0xe8] org.apache.geode.distributed.DistributedSystemDisconnectedException: Distribution manager on 192.168.43.139(locator:1355:locator)<ec><v0>:1024 started at Thu Oct 11 03:39:03 EDT 2018: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026], caused by org.apache.geode.ForcedDisconnectException: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+org.apache.geode.management.ManagementException: org.apache.geode.distributed.DistributedSystemDisconnectedException: Distribution manager on 192.168.43.139(locator:1355:locator)<ec><v0>:1024 started at Thu Oct 11 03:39:03 EDT 2018: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026], caused by org.apache.geode.ForcedDisconnectException: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+	at org.apache.geode.management.internal.FederatingManager.stopManagingActivity(FederatingManager.java:149)
+	at org.apache.geode.management.internal.FederatingManager.stopManager(FederatingManager.java:133)
+	at org.apache.geode.management.internal.SystemManagementService.close(SystemManagementService.java:235)
+	at org.apache.geode.management.internal.beans.ManagementAdapter.handleCacheRemoval(ManagementAdapter.java:719)
+	at org.apache.geode.management.internal.beans.ManagementListener.handleEvent(ManagementListener.java:110)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem.notifyResourceEventListeners(InternalDistributedSystem.java:2185)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem.handleResourceEvent(InternalDistributedSystem.java:568)
+	at org.apache.geode.internal.cache.GemFireCacheImpl.close(GemFireCacheImpl.java:2112)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem.disconnect(InternalDistributedSystem.java:1355)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem.reconnect(InternalDistributedSystem.java:2667)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem.tryReconnect(InternalDistributedSystem.java:2543)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem.disconnect(InternalDistributedSystem.java:1024)
+	at org.apache.geode.distributed.internal.DistributionManager$DMListener.membershipFailure(DistributionManager.java:3982)
+	at org.apache.geode.distributed.internal.membership.gms.mgr.GMSMembershipManager.uncleanShutdown(GMSMembershipManager.java:1561)
+	at org.apache.geode.distributed.internal.membership.gms.mgr.GMSMembershipManager.lambda$forceDisconnect$0(GMSMembershipManager.java:2598)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.geode.distributed.DistributedSystemDisconnectedException: Distribution manager on 192.168.43.139(locator:1355:locator)<ec><v0>:1024 started at Thu Oct 11 03:39:03 EDT 2018: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026], caused by org.apache.geode.ForcedDisconnectException: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+	at org.apache.geode.distributed.internal.DistributionManager$Stopper.generateCancelledException(DistributionManager.java:4512)
+	at org.apache.geode.distributed.internal.InternalDistributedSystem$Stopper.generateCancelledException(InternalDistributedSystem.java:940)
+	at org.apache.geode.internal.cache.GemFireCacheImpl$Stopper.generateCancelledException(GemFireCacheImpl.java:1525)
+	at org.apache.geode.CancelCriterion.checkCancelInProgress(CancelCriterion.java:83)
+	at org.apache.geode.internal.cache.LocalRegion.checkRegionDestroyed(LocalRegion.java:7359)
+	at org.apache.geode.internal.cache.LocalRegion.checkReadiness(LocalRegion.java:2726)
+	at org.apache.geode.internal.cache.LocalRegion.entrySet(LocalRegion.java:1848)
+	at org.apache.geode.internal.cache.LocalRegion.entrySet(LocalRegion.java:8888)
+	at org.apache.geode.management.internal.MBeanProxyFactory.removeAllProxies(MBeanProxyFactory.java:154)
+	at org.apache.geode.management.internal.FederatingManager.removeMemberArtifacts(FederatingManager.java:223)
+	at org.apache.geode.management.internal.FederatingManager.stopManagingActivity(FederatingManager.java:145)
+	... 15 more
+Caused by: org.apache.geode.ForcedDisconnectException: Exiting due to possible network partition event due to loss of 2 cache processes: [192.168.43.139(datanode1:2413)<v13>:1025, 192.168.43.139(datanode2:2460)<v14>:1026]
+	at org.apache.geode.distributed.internal.membership.gms.mgr.GMSMembershipManager.forceDisconnect(GMSMembershipManager.java:2568)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave.forceDisconnect(GMSJoinLeave.java:1055)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave.access$1500(GMSJoinLeave.java:90)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave$ViewCreator.prepareAndSendView(GMSJoinLeave.java:2500)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave$ViewCreator.createAndSendView(GMSJoinLeave.java:2476)
+	at org.apache.geode.distributed.internal.membership.gms.membership.GMSJoinLeave$ViewCreator.run(GMSJoinLeave.java:2260)
+
+[info 2018/10/11 04:26:33.744 EDT locator <ReconnectThread> tid=0xe8] GemFireCache[id = 1746578747; isClosing = true; isShutDownAll = false; created = Thu Oct 11 03:39:03 EDT 2018; server = false; copyOnRead = false; lockLease = 120; lockTimeout = 60]: Now closing.
+
+[info 2018/10/11 04:26:33.751 EDT locator <ReconnectThread> tid=0xe8] Created oplog#2 krf for disk store cluster_config.
+
+[info 2018/10/11 04:26:33.914 EDT locator <ReconnectThread> tid=0xe8] Closing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 04:26:33.921 EDT locator <ReconnectThread> tid=0xe8] Shutting down ExecutorService 'asyncTaskExecutor'
+
+[info 2018/10/11 04:26:33.931 EDT locator <ReconnectThread> tid=0xe8] Closing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Oct 11 03:39:06 EDT 2018]; root of context hierarchy
+
+[info 2018/10/11 04:26:33.936 EDT locator <ReconnectThread> tid=0xe8] Shutting down ExecutorService 'asyncTaskExecutor'
+
+[info 2018/10/11 04:26:33.947 EDT locator <ReconnectThread> tid=0xe8] Shutting down DistributionManager 192.168.43.139(locator:1355:locator)<ec><v0>:1024. At least one Exception occurred.
+
+[info 2018/10/11 04:26:34.050 EDT locator <ReconnectThread> tid=0xe8] Now closing distribution for 192.168.43.139(locator:1355:locator)<ec><v0>:1024
+
+[info 2018/10/11 04:26:34.050 EDT locator <ReconnectThread> tid=0xe8] DistributionManager stopped in 103ms.
+
+[info 2018/10/11 04:26:34.050 EDT locator <ReconnectThread> tid=0xe8] Marking DistributionManager 192.168.43.139(locator:1355:locator)<ec><v0>:1024 as closed.
+
+[info 2018/10/11 04:26:38.735 EDT locator <main> tid=0x1] waiting for distributed system to reconnect...
